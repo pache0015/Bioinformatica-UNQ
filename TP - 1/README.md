@@ -6,10 +6,10 @@
     ##### Un ejemplo de esto son los acidos nucleicos (el ácido desoxirribonucleicoel - o ADN - y el ácido ribonucleico - o  ARN -). 
 
 #### RETO II: Proponé una forma de expresar la información contenida en la estructura primaria de las proteínas usando tipos de datos de los lenguajes de programación que conocés.
-    ##### Teniendo en cuenta que para este trabajo elegí el lenguaje de programación Haskell, la forma de expresar una estructura primaria sería con un String que en es, en este lenguaje, una lista de tipos Char.
+    ##### Siendo simplistas, se podria expresarla informacion contenida en la estructura primaria de las poteinas usando cualquier estructura que sea iterable; amerita mencionar la simpleza de un String o cadenas de caracteres. Teniendo en cuenta que para este trabajo se eligío el lenguaje de programación Haskell, una posible forma de modelar dicha estructura primaria sería con los datasespecificados en el archivo: TP-1.hs. (Falta link)
  
 #### RETO III: ¿ En qué tipo de datos podrías expresar la información de la estructura terciaria proteica?
-    ##### Esto se pordría expresar como una listas de listas. Por cada aminoácido tener una lista con donde en principio esté el string establecido anteriormente como estructura primaria y otra lista con las coordenadas para saber dónde graficarlo en función del espacio.
+    ##### La informacion de la estructura terciaria proteica  se podría expresar como una listas de listas. Por cada aminoácido tener una lista con donde en principio esté el string establecido anteriormente como estructura primaria y otra lista con las coordenadas para saber dónde graficarlo en función del espacio.
 
 #### RETO IV: Rosalind Franklin es una científica muy relevante, que tuvo menos reconocimiento del merecido. ¿Cuáles fueron sus contribuciones en este campo? ¿Qué nos cuenta su historia acerca del mundo de la ciencia?
     ##### Sus contribucioines en este campo fueron basicamente la clave para poder entender la estructura del ADN mediante las fotos que pudo tomar con los rayos x.
