@@ -5,8 +5,9 @@
 #### RETO I: ¿Podrías buscar un ejemplo de macromoléculas que almacenen información sobre la ‘identidad’ de un organismo dado?  
 
     ##### Un ejemplo de esto son los acidos nucleicos (el *ácido desoxirribonucleico* - o ADN - y el *ácido ribonucleico* - o  ARN-). 
-  
-    
+
+![Aquí la descripción de la imagen por si no carga](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/ADN%7CARN.jpg)
+ 
       
         
 #### RETO II: Proponé una forma de expresar la información contenida en la estructura primaria de las proteínas usando tipos de datos de los lenguajes de programación que conocés.
