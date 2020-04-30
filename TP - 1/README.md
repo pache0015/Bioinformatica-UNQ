@@ -27,10 +27,17 @@ La informacion de la estructura terciaria proteica  se podría expresar de varia
           
           
 #### RETO IV: Rosalind Franklin es una científica muy relevante, que tuvo menos reconocimiento del merecido. ¿Cuáles fueron sus contribuciones en este campo? ¿Qué nos cuenta su historia acerca del mundo de la ciencia?
- Sus contribucioines en este campo fueron basicamente la clave para poder entender la estructura del ADN mediante las fotos que pudo tomar con los rayos x.
-En cuanto a su historia en el mundo de la cienca puede resaltarse lo machista de la época y el poco lugar que se le daba a las mujeres en los ámbitos científicos por muy buenas que fueran. Ya que por más descubrimiento que hagan, como es el caso de Rosalind no le daba el prestigio o importancia que merecían. 
+ 
+ ![Meme - Rosalind](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/rosalinda.jpg)
   
-![Meme - Rosalind](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/rosalinda.jpg)
+Sus contribucioines en este campo fueron la clave para el entendendimiento de la estructura del ___ADN___, mediante las fotos que pudo tomar utilizando la técnica de difracción de Rayos X, en la cual era una expertaa nivel mundial.
+  
+ [!["Un cerebro mas liviano"]({image-url})]({https://www.youtube.com/watch?v=UR7AV6nXpD0} "Nadia Chiaramori - Un cerebro más liviano- Prof. UNQ.TEDx").
+ 
+En cuanto a lo que nos cuenta su historia acerca del mundo de la cienca puede verse a través de varias aristas, lamentablemente todas ellas. 
+
+resaltarse lo machista de la época y el poco lugar que se le daba a las mujeres en los ámbitos científicos por muy buenas que fueran. Ya que por más descubrimiento que hagan, como es el caso de Rosalind no le daba el prestigio o importancia que merecían. 
+  
       
         
         
