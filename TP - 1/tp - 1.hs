@@ -1,17 +1,17 @@
 data Base = A | T  | U  |  C  |  G  deriving Show
--- Invariante  de representación:: Las cadenas de DNA se constituyen con bases del tipo: A C G T
--- Invariante  de representación:: Las cadenas de RNA se constituyen con bases del tipo: A C G U
+-- Invariante: Las cadenas de DNA se constituyen con bases del tipo: A C G T
+-- Invariante: Las cadenas de RNA se constituyen con bases del tipo: A C G U
 
 data Aminoacido = STOP | Phe  | Ser | Tyr | Cys | Leu  | Pro  | His  | Arg  |
-           	Trp  | Gln  | Ile | Thr  | Asn | Lys  | Gly  | Val | Ala | Asp |
-           	Glu  | Met  deriving Show
+               Trp  | Gln  | Ile | Thr  | Asn | Lys  | Gly  | Val | Ala | Asp |
+               Glu  | Met  deriving Show
 -- Invariante de representación: Las cadenas de Aminoacidos terminan en STOP.
 
 type Proteina = [Aminoacido]
 type X = Float
 type Y = Float
 type Z = Float
-data Coordenada = Coor X Y Z
+data Coordenada = Coor X Y Z 
 data EstTerciaria = EstTer [ ( [Coordenada], Aminoacido) ]
 
 type ADN = [Base]
@@ -30,13 +30,13 @@ main adn = segmentador (transcribir adn)
 
 segmentador :: [Base] -> [Aminoacido]
 segmentador (x: y : z : bs) = if isStop (formacionDeAminoacido x y z)
-					then segmentador []
-					else formacionDeAminoacido x y z : segmentador bs
+                    then segmentador []
+                    else formacionDeAminoacido x y z : segmentador bs
 segmentador _ = [STOP]
 
 isStop :: Aminoacido -> Bool
 isStop STOP = True
-isStop _ 	= False
+isStop _     = False
 
 formacionDeAminoacido :: Base -> Base -> Base -> Aminoacido
 -- Primer base U --
@@ -75,6 +75,8 @@ formacionDeAminoacido   G A C = Asp
 formacionDeAminoacido   G A _ = Glu
 formacionDeAminoacido   G G _ = Gly
 
--- Ejemplos --
+-- Ejemplos de cadena adn --
 cadena1 = [A,C,T,G,A,A,C,T,T,G,A,T,U,G,A]
 cadena2 = [A,C,T,G,A,A,C,T,T,G,A,T,A]
+
+
