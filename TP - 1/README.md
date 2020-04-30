@@ -4,7 +4,7 @@
 
 #### RETO I: ¿Podrías buscar un ejemplo de macromoléculas que almacenen información sobre la ‘identidad’ de un organismo dado?  
 
-    ##### Un ejemplo de esto son los acidos nucleicos (el ___ácido desoxirribonucleico___ - o ADN - y el ___ácido ribonucleico___ - o  ARN -). 
+    ##### Un ejemplo de esto son los acidos nucleicos (el *ácido desoxirribonucleico* - o ADN - y el *ácido ribonucleico* - o  ARN-). 
   
     
       
