@@ -30,7 +30,7 @@ La informacion de la estructura terciaria proteica  se podría expresar de varia
  Sus contribucioines en este campo fueron basicamente la clave para poder entender la estructura del ADN mediante las fotos que pudo tomar con los rayos x.
 En cuanto a su historia en el mundo de la cienca puede resaltarse lo machista de la época y el poco lugar que se le daba a las mujeres en los ámbitos científicos por muy buenas que fueran. Ya que por más descubrimiento que hagan, como es el caso de Rosalind no le daba el prestigio o importancia que merecían. 
   
-![Meme - Rosalind](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/rosalinda.jpg = 500px)
+![Meme - Rosalind](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/rosalinda.jpg =300px)
       
         
         
