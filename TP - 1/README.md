@@ -39,7 +39,7 @@ Ver una posible solución en el [TP-1.hs](https://github.com/pache0015/Bioinform
 ___Nota___: Para predecir la estructura secundaria que adoptará cada residuo de la secuencia proteica dada, a traves de una serie de datos que se obtienen de analizar la secuencia y la estructura de amplios conjuntos de proteínas con estructura conocida y se establece una correlación entre las características estructurales y la secuencia para determinar cuál es la
 probabilidad de que un determinado residuo adopte un tipo de estructura secundaria u otro. Este calculo devengará en un porcentaje que determina la probabilidad de que se adopte o bien una hélice, una hoja beta plegada o un loop. Como puede verse en la siguiente tabla:
 
-![tabla - Estructura secundaria]https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/tabla.jpg
+![tabla - Estructura secundaria](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/tabla.jpg)
 
 Esto podria pensarse como: (asumiendo que la lógica de las probabilidades esta abstraida en la función problabilidad_ __estructura__)
 
