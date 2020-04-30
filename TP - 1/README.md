@@ -3,19 +3,11 @@
 ## Tp 1 - Introducción a la Bioinformática
 
 #### RETO I: ¿Podrías buscar un ejemplo de macromoléculas que almacenen información sobre la ‘identidad’ de un organismo dado?
-####
-####
-####
-####
-[] (https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/ADN%7CARN.jpg "Daenerys")
-####
-####
-####
-####
-
-
-
     ##### Un ejemplo de esto son los acidos nucleicos (el ___ácido desoxirribonucleico___ - o ADN - y el ___ácido ribonucleico___ - o  ARN -). 
+####
+
+
+
 ####
 ####
 ####
