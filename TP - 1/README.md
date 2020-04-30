@@ -43,8 +43,7 @@ probabilidad de que un determinado residuo adopte un tipo de estructura secundar
 
 Esto podria pensarse como: (asumiendo que la lógica de las probabilidades esta abstraida en la función problabilidad_ __estructura__)
 
-`
-
+~~~~
 > analisis{
 >    Por cada ___residuo___ en ___secuencia_proteica___ {
 >        Si probabilidad_helix(___residuo___){
@@ -59,8 +58,8 @@ Esto podria pensarse como: (asumiendo que la lógica de las probabilidades esta 
 >            }
 >    }
 >}
+~~~~
 
-`
 Por simplicidad, en el modelo propuesto, la forma de resolver dicha situacion fue priorizando, tomando dichos valores deforma deterministica, sin recurrir en las probabilidades. Se intenta priorizar la idea fundamental por sobre la implementación, como motivación para el acercamiento a un tema nuevo.   
  
     
