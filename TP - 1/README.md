@@ -3,7 +3,7 @@
 ## Tp 1 - Introducción a la Bioinformática
 
 #### RETO I: ¿Podrías buscar un ejemplo de macromoléculas que almacenen información sobre la ‘identidad’ de un organismo dado?
-    ##### Un ejemplo de esto son los acidos nucleicos (el ácido desoxirribonucleicoel - o ADN- y el ácido ribonucleico - o  ARN). 
+    ##### Un ejemplo de esto son los acidos nucleicos (el ácido desoxirribonucleicoel - o ADN - y el ácido ribonucleico - o  ARN -). 
 
 #### RETO II: Proponé una forma de expresar la información contenida en la estructura primaria de las proteínas usando tipos de datos de los lenguajes de programación que conocés.
     ##### Teniendo en cuenta que para este trabajo elegí el lenguaje de programación Haskell, la forma de expresar una estructura primaria sería con un String que en es, en este lenguaje, una lista de tipos Char.
