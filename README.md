@@ -5,6 +5,7 @@
 
 
 #### Integrantes: ####
-s
-Facundo Pacheco
-Horacio Valenzuela
+
+*Facundo Pacheco
+
+*Horacio Valenzuela
