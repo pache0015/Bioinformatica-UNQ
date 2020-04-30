@@ -34,7 +34,7 @@ En cuanto a su historia en el mundo de la cienca puede resaltarse lo machista de
         
         
 #### RETO V: Proponé en pseudocódigo un programa que prediga la estructura secundaria que adoptará cada residuo de la secuencia proteica dada, especificandola como H (si es una hélice), B (si es una hoja beta plegada) y L (si es un bucle o loop).
-Ver una posible solución en el [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-           1.hs)
+Ver una posible solución en el [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-1.hs).
 ___Nota___: Para predecir la estructura secudaria que adoptara cada residuo de la secuencia proteica dada, se calculo         un porcentaje que determina la probabilidad de que seadopte una hélice o hoja beta legada. Por simplicidad, en el la         forma de resolver  
   
     
