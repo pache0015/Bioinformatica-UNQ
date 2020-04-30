@@ -36,16 +36,41 @@ En cuanto a su historia en el mundo de la cienca puede resaltarse lo machista de
         
 #### RETO V: Proponé en pseudocódigo un programa que prediga la estructura secundaria que adoptará cada residuo de la secuencia proteica dada, especificandola como H (si es una hélice), B (si es una hoja beta plegada) y L (si es un bucle o loop).
 Ver una posible solución en el [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-1.hs).
-___Nota___: Para predecir la estructura secudaria que adoptara cada residuo de la secuencia proteica dada, se calculo         un porcentaje que determina la probabilidad de que seadopte una hélice o hoja beta legada. Por simplicidad, en el la         forma de resolver  
-  
-    
+___Nota___: Para predecir la estructura secundaria que adoptará cada residuo de la secuencia proteica dada, a traves de una serie de datos que se obtienen de analizar la secuencia y la estructura de amplios conjuntos de proteínas con estructura conocida y se establece una correlación entre las características estructurales y la secuencia para determinar cuál es la
+probabilidad de que un determinado residuo adopte un tipo de estructura secundaria u otro. Este calculo devengará en un porcentaje que determina la probabilidad de que se adopte o bien una hélice, una hoja beta plegada o un loop. Como puede verse en la siguiente tabla:
+
+![tabla - Estructura secundaria]https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/tabla.jpg
+
+Esto podria pensarse como: (asumiendo que la lógica de las probabilidades esta abstraida en la función problabilidad_ __estructura__)
+
+analisis{
+    Por cada ___residuo___ en ___secuencia_proteica___ {
+        Si probabilidad_helix(___residuo___){
+            retorna H (informacion_de(___residuo___)) + residuos en secuencia
+        } 
+        Sino{
+            Si (){
+                retorna B (informacion_de(___residuo___))  + residuos en secuencia
+            }
+            Sino{
+                retorna L (informacion_de(___residuo___)) + residuos en secuencia
+            }
+    }
+}
+
+Por simplicidad, en el modelo propuesto, la forma de resolver dicha situacion fue priorizando, tomando dichos valores deforma deterministica, sin recurrir en las probabilidades. Se intenta priorizar la idea fundamental por sobre la implementación, como motivación para el acercamiento a un tema nuevo.   
+ 
     
 - PREGUNTAS DISPARADORAS: ¿Qué inputs tendría tu programa? ¿De qué modo se te ocurre configurar el output?
-  
+ (What)
     
      
 #### RETO VI: ¿Qué hace distintos a dos individuos de una especie? Propone una forma de corroborar tu respuesta realizando un diagrama de un posible método computacional para dicho fin.
   
+(Revisar)
+Lo que hace distintos a dos individuos de la misma especie es la informacion de su ___ADN___.
     
     
 - PREGUNTAS DISPARADORAS: ¿Qué información deberías tener? ¿De qué modo deberías expresar dicha información para el análisis?
+(What) 
+La información que se deberia tener a priori es una muestra genetica de ambos individuos.
