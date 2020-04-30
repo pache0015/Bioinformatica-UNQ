@@ -11,7 +11,7 @@ type Proteina = [Aminoacido]
 type X = Float
 type Y = Float
 type Z = Float
-data Coordenada = Coor X Y Z 
+data Coordenada = Coor X Y Z deriving Show
 data EstTerciaria = EstTer [ ( [Coordenada], EstSecundaria) ] deriving  Show
 data EstSecundaria = BetaPlegada | AlphaHelice | Loop | SinForma deriving Show
 
@@ -80,7 +80,7 @@ formacionDeAminoacido   G G _ = Gly
 cadena1 = [A,C,T,G,A,A,C,T,T,G,A,T,U,G,A]
 cadena2 = [A,C,T,G,A,A,C,T,T,G,A,T,A]
 
-prediccionEstSec :: Amionacido -> EstSecundaria
+prediccionEstSec :: Aminoacido -> EstSecundaria
 
 prediccionEstSec STOP = SinForma
 
