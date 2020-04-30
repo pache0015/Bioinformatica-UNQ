@@ -44,20 +44,20 @@ probabilidad de que un determinado residuo adopte un tipo de estructura secundar
 Esto podria pensarse como: (asumiendo que la lógica de las probabilidades esta abstraida en la función problabilidad_ __estructura__)
 
 ~~~~
-> analisis{
->    Por cada ___residuo___ en ___secuencia_proteica___ {
->        Si probabilidad_helix(___residuo___){
->            retorna H (informacion_de(___residuo___)) + residuos en secuencia
->        } 
->        Sino{
->            Si (){
->                retorna B (informacion_de(___residuo___))  + residuos en secuencia
->            }
->            Sino{
->                retorna L (informacion_de(___residuo___)) + residuos en secuencia
->            }
->    }
->}
+analisis{
+    Por cada ___residuo___ en ___secuencia_proteica___ {
+        Si probabilidad_helix(___residuo___){
+            retorna H (informacion_de(___residuo___)) + residuos en secuencia
+        } 
+        Sino{
+            Si (){
+                retorna B (informacion_de(___residuo___))  + residuos en secuencia
+            }
+            Sino{
+                retorna L (informacion_de(___residuo___)) + residuos en secuencia
+            }
+    }
+}
 ~~~~
 
 Por simplicidad, en el modelo propuesto, la forma de resolver dicha situacion fue priorizando, tomando dichos valores deforma deterministica, sin recurrir en las probabilidades. Se intenta priorizar la idea fundamental por sobre la implementación, como motivación para el acercamiento a un tema nuevo.   
