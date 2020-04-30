@@ -30,16 +30,10 @@ La informacion de la estructura terciaria proteica  se podría expresar de varia
  
  ![Meme - Rosalind](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/rosalinda.jpg)
   
-Sus contribucioines en este campo fueron la clave para el entendendimiento de la estructura del ___ADN___, mediante las fotos que pudo tomar utilizando la técnica de difracción de Rayos X, en la cual era una expertaa nivel mundial.
-  
- 
- [!["Un cerebro mas liviano"](http://img.youtube.com/vi/UR7AV6nXpD0/0.jpg)](https://www.youtube.com/watch?v=UR7AV6nXpD0 "Nadia Chiaramori - Un cerebro más liviano- Prof. UNQ.TEDx")
- 
- 
-En cuanto a lo que nos cuenta su historia acerca del mundo de la cienca puede verse a través de varias aristas, lamentablemente todas ellas. 
+Sus contribucioines en este campo fueron la clave para el entendendimiento de la estructura del ___ADN___, mediante las fotos que pudo tomar utilizando la técnica de difracción de Rayos X, en la cual era una experta a nivel mundial.
+En cuanto a lo que nos cuenta su historia acerca del mundo de la cienca puede verse a través de varias aristas, lamentablemente todas ellas negativas. En una primer vision, la más inmediata, resalta lo machista de la época y el poco lugar que tenian las mujeres en los ámbitos científicos/academicos por muy buenas que fueran en sus areas de competencia,ni por más aportes que hagan en nombre de la ciencia, como es el caso de Rosalind, entre otras muchas. No le dio el prestigio o importancia que merecían, como bien lo explica Nadia Chiaramoni,profesora de la UNQ e investigadora del Conicet:
 
-resaltarse lo machista de la época y el poco lugar que se le daba a las mujeres en los ámbitos científicos por muy buenas que fueran. Ya que por más descubrimiento que hagan, como es el caso de Rosalind no le daba el prestigio o importancia que merecían. 
-  
+[!["Un cerebro mas liviano"](http://img.youtube.com/vi/UR7AV6nXpD0/0.jpg)](https://www.youtube.com/watch?v=UR7AV6nXpD0 "Nadia Chiaramori - Un cerebro más liviano- Prof. UNQ.TEDx")
       
         
         
