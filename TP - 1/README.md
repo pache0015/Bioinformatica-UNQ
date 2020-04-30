@@ -32,7 +32,9 @@ La informacion de la estructura terciaria proteica  se podría expresar de varia
   
 Sus contribucioines en este campo fueron la clave para el entendendimiento de la estructura del ___ADN___, mediante las fotos que pudo tomar utilizando la técnica de difracción de Rayos X, en la cual era una expertaa nivel mundial.
   
- [!["Un cerebro mas liviano"]({image-url})]({https://www.youtube.com/watch?v=UR7AV6nXpD0} "Nadia Chiaramori - Un cerebro más liviano- Prof. UNQ.TEDx").
+ 
+ [!["Un cerebro mas liviano"](http://img.youtube.com/vi/UR7AV6nXpD0/0.jpg)](https://www.youtube.com/watch?v=UR7AV6nXpD0 "Nadia Chiaramori - Un cerebro más liviano- Prof. UNQ.TEDx")
+ 
  
 En cuanto a lo que nos cuenta su historia acerca del mundo de la cienca puede verse a través de varias aristas, lamentablemente todas ellas. 
 
