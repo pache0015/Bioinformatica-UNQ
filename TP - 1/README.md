@@ -70,15 +70,16 @@ Por simplicidad, en el modelo propuesto, la forma de resolver dicha situacion fu
  
     
 - PREGUNTAS DISPARADORAS: ¿Qué inputs tendría tu programa? ¿De qué modo se te ocurre configurar el output?
+
  En este ejemplo [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-1.hs) es un aminoácido el input que recibe la función que evaluará la qué estructura secundaria que se tendrá. Si bien su complejidad es muy baja ya que solo retorna el tipo más problable de estructura secundaria, siendo posible Alpha Hélice, Beta Plegada o Loop. No se tuvo en cuenta las probabilidades de que un mismo aminoácido pueda llegar a tomar otra estructura que no sea la más probable para si mismo.
     
      
 #### RETO VI: ¿Qué hace distintos a dos individuos de una especie? Propone una forma de corroborar tu respuesta realizando un diagrama de un posible método computacional para dicho fin.
   
-(Revisar)
-Lo que hace distintos a dos individuos de la misma especie es la informacion de su ___ADN___.
+
+Lo que hace distintos a dos individuos de la misma especie son sus genes en el ___ADN___.
     
     
 - PREGUNTAS DISPARADORAS: ¿Qué información deberías tener? ¿De qué modo deberías expresar dicha información para el análisis?
-(What) 
+
 La información que se deberia tener a priori es una muestra genetica de ambos individuos.
