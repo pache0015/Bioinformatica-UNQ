@@ -77,7 +77,7 @@ Por simplicidad, en el modelo propuesto, la forma de resolver dicha situacion fu
 #### RETO VI: ¿Qué hace distintos a dos individuos de una especie? Propone una forma de corroborar tu respuesta realizando un diagrama de un posible método computacional para dicho fin.
   
 
-Lo que hace distintos a dos individuos de la misma especie son sus genes en el ___ADN___.
+Todos  los organismos de una determinada especie comparten ciertas generalidades. Independientemente a ello, cada individuo posee caracteristicas particularidades. Esto tiene el nombre de variabilidad y se origina por mutaciones, recombinaciones, etc. En definitiva, esas diferencias va a estar dada por los ___genes___ en el ___ADN___ y la información en ellos.
     
     
 - PREGUNTAS DISPARADORAS: ¿Qué información deberías tener? ¿De qué modo deberías expresar dicha información para el análisis?
