@@ -12,14 +12,14 @@ Un ejemplo de esto son los acidos nucleicos (el *ácido desoxirribonucleico* - o
         
 #### RETO II: Proponé una forma de expresar la información contenida en la estructura primaria de las proteínas usando tipos de datos de los lenguajes de programación que conocés.
 
-Siendo simplistas, se podria expresarla informacion contenida en la estructura primaria de las poteinas usando cualquier estructura que sea iterable; amerita mencionar la simpleza de un String o cadenas de caracteres. Teniendo en cuenta que para este trabajo se eligío el lenguaje de programación ___Haskell___, una posible forma de modelar dicha estructura primaria sería con los datas especificados en el archivo: [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-1.hs).
+Siendo simplistas, se podria expresar la informacion contenida en la estructura primaria de las poteinas usando cualquier estructura que sea iterable; amerita mencionar la simpleza de un String o cadenas de caracteres. Teniendo en cuenta que para este trabajo se eligío el lenguaje de programación ___Haskell___, una posible forma de modelar dicha estructura primaria sería con los datas especificados en el archivo: [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-1.hs).
   
     
       
         
           
 #### RETO III: ¿ En qué tipo de datos podrías expresar la información de la estructura terciaria proteica?
-La informacion de la estructura terciaria proteica  se podría expresar de varias maneras distintas, dependiendo el nivel de dificultad que se quiera imprimir en la calidad delcódigo. Una forma simple de verlo es como una listas de listas. Por cada aminoácido tener una lista con donde en principio esté el string establecido anteriormente como estructura primaria y otra lista con las coordenadas para saber dónde graficarlo en función del espacio (o bien cualquier estructura que permita aglomerar una serie de estructuras o datos relacionados, como puede ser una ___n-tupla___ o similar). Otra forma de pensarlo, quizas un poco mas compleja, es atraves de una estructura arbolea, como puede ser un grafo, donde se podria incluir mucha más informacion estructural. Para ganar un conocimiento profundo al respecto, en el [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-1.hs) se podra encontrar una propuesta utilizando nuevamente ___Haskell___ y un par de funciones pertinentes.
+La informacion de la estructura terciaria proteica  se podría expresar de varias maneras distintas, dependiendo el nivel de dificultad que se quiera imprimir en la calidad del código. Una forma simple de verlo es como una listas de listas. Por cada aminoácido tener una lista donde en principio esté la estructura secundaria definida y condicionada previamente por las bases representadas y otra lista con las coordenadas para saber dónde graficarlo en función del espacio (o bien cualquier estructura que permita aglomerar una serie de estructuras o datos relacionados, como puede ser una ___n-tupla___ o similar). Otra forma de pensarlo, quizas un poco mas compleja, es atraves de una estructura arbolea, como puede ser un grafo, donde se podria incluir mucha más informacion estructural. Para ganar un conocimiento profundo al respecto, en el [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-1.hs) se podra encontrar una propuesta utilizando nuevamente ___Haskell___ y un par de funciones pertinentes.
   
     
       
@@ -70,7 +70,7 @@ Por simplicidad, en el modelo propuesto, la forma de resolver dicha situacion fu
  
     
 - PREGUNTAS DISPARADORAS: ¿Qué inputs tendría tu programa? ¿De qué modo se te ocurre configurar el output?
- (What)
+ En este ejemplo [TP-1.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/tp-1.hs) es un aminoácido el input que recibe la función que evaluará la qué estructura secundaria que se tendrá. Si bien su complejidad es muy baja ya que solo retorna el tipo más problable de estructura secundaria, siendo posible Alpha Hélice, Beta Plegada o Loop. No se tuvo en cuenta las probabilidades de que un mismo aminoácido pueda llegar a tomar otra estructura que no sea la más probable para si mismo.
     
      
 #### RETO VI: ¿Qué hace distintos a dos individuos de una especie? Propone una forma de corroborar tu respuesta realizando un diagrama de un posible método computacional para dicho fin.
