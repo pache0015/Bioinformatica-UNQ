@@ -47,26 +47,27 @@ probabilidad de que un determinado residuo adopte un tipo de estructura secundar
 
 ![tabla - Estructura secundaria](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/tabla.jpg)
 
-Esto podria pensarse como: (asumiendo que la lógica de las probabilidades esta abstraida en la función problabilidad_ __estructura__)
+Esto podria pensarse como: (asumiendo que la lógica de las probabilidades esta abstraida en la función problabilidad_ __estructura__). Finalmente, a la union de las distintas cadenas secundarias resultante, se le aplica una funcion que determine finalmente la posicion real en el espacio de la estructura resultando, entendiendo que las posibilidades de que un residuo adopte cierta forma no es información suficiente como para determinar en una forma tan "lineal" la estructura secundaria final.
 
 ~~~~
 analisis{
     Por cada ___residuo___ en ___secuencia_proteica___ {
         Si probabilidad_helix(___residuo___){
-            retorna H (informacion_de(___residuo___)) + residuos en secuencia
+            resultaddo = retorna H (informacion_de(___residuo___)) + residuos en secuencia
         } 
         Sino{
             Si (){
-                retorna B (informacion_de(___residuo___))  + residuos en secuencia
+                resultaddo = retorna B (informacion_de(___residuo___))  + residuos en secuencia
             }
             Sino{
-                retorna L (informacion_de(___residuo___)) + residuos en secuencia
+                resultaddo = retorna L (informacion_de(___residuo___)) + residuos en secuencia
             }
     }
+    formaFinal(resultado)
 }
 ~~~~
 
-Por simplicidad, en el modelo propuesto, la forma de resolver dicha situacion fue priorizando, tomando dichos valores deforma deterministica, sin recurrir en las probabilidades. Se intenta priorizar la idea fundamental por sobre la implementación, como motivación para el acercamiento a un tema nuevo.   
+Por simplicidad, en el modelo propuesto, la forma de resolver dicha situacion fue priorizando, tomando dichos valores deforma deterministica, sin recurrir en las probabilidades. Se intenta priorizar la idea fundamental por sobre la implementación, como motivación para el acercamiento a un tema nuevo. 
  
     
 - PREGUNTAS DISPARADORAS: ¿Qué inputs tendría tu programa? ¿De qué modo se te ocurre configurar el output?
