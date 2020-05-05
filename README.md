@@ -4,8 +4,24 @@
 ## 2020 - C1 ##
 
 
-#### Integrantes: ####
+#### Integrantes Tp1: ####
 
 *Facundo Pacheco
 
 *Horacio Valenzuela
+
+#### Integrantes Tp2: ####
+
+*Facundo Pacheco
+
+*Horacio Valenzuela
+
+#### Integrantes Tp3: ####
+
+*Guasch, Gonzalo
+
+*Pacheco, Facundo 
+
+*Valenzuela, Horacio 
+
+*Mariano
