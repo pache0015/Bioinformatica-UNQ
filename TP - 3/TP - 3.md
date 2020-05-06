@@ -7,8 +7,19 @@ tienen su origen en el reino archaea, mientras que los genes “operacionales”
 su origen en el reino bacteria”?
 
 
-RETO I: Enumerá las diferencias que existen entre una célula procariota y
-eucariota.
+RETO I: Enumerá las diferencias que existen entre una célula procariota y eucariota.
+
+  Para empezar, las células procariotas son más antiguas que las eucariotas. Además en las Procariotas el material genético no está separado del citoplasma y los Eucariotas presentan el material genético está organizado en cromosomas rodeados por una membrana que los separa del citoplasma.
+  
+  | Procariotas   |      Eucariotas      |
+|:----------:|:-------------:|
+| Más antiguas | Menos antiguas |
+| ADN localizado en una región: Nucleoide, no rodeada por una membrana.  |  Núcleo rodeado por una membrana. Material genético fragmentado en cromosomas formados por ADN y proteínas.  |
+| Escasas formas multicelulares. Ausencia de desarrollo de tejidos |    Por lo general células grandes, (10-100 µm). Algunos son microbios, la mayoría son organismos grandes.   |
+| Ausencia de mitocondrias: las enzimas para la oxidación de moléculas orgánicas están ligadas a las membranas | División celular por mitosis, presenta huso mitótico, o alguna forma de ordenación de microtúbulos. |
+| Flagelos simples formados por la proteína flagelina | Los organismos multicelulares muestran desarrollo de tejidos |
+| En especies fotosintéticas, las enzimas necesarias están ligadas a las membranas. Exitencia de fotosíntesis aerobia y anaerobia, con productos finales como azufre, sulfato y Oxígeno | Las enzimas están en las mitocondrias |
+
 
 PARA PENSAR: ¿Cuáles de los pasos descritos anteriormente deberías cambiar si
 habláramos de células procariotas? 🤔
