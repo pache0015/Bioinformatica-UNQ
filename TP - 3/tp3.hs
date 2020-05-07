@@ -3,20 +3,22 @@ data Base = A | T  | U  |  C  |  G  deriving Show
 -- Invariante: Las cadenas de RNA se constituyen con bases del tipo: A C G U
 
 
+type CadenaARN = [Base]
+type Peptido = String
+
 -- ## Casos ## --
 sec1 = "TVAEKGGKHKTGPNEKGKKIFVQKCSQCHTVLHGLFGRKTGQA"
-secConTATA = "TATAABBBBBTATA"
-secConTATAbis = "TATAABBBBBTATAABABABA"
+secConTATA = "TATAAABBBBBTATAAA"
+secConTATAbis = "TATAAABBBBBTATAAABABABA"
 secSinTATA = "AAATATA"
 secSinTATAFinal = "TATAAAAAAAA"
 secSinTATAbis = "AAAAAAA"
-secDeSoloTATA = "TATATATA"
-secDeMuchosTATAS = "TATABTATABTATABTATA"
-
+secDeSoloTATA = "TATAAATATAAA"
+secDeMuchosTATAS = "TATAAABTATAAABTATAAABTATAAA"
 
 
 -- ## Reto 2 ## --
-transform :: String -> [Base]
+transform :: Peptido -> CadenaARN
 transform [] = []
 transform (x:xs) = deAminoABase x ++ transform xs
 
@@ -41,7 +43,7 @@ deAminoABase 'T' = [ A , C , U ]
 deAminoABase 'V' = [ G , U , U ]
 deAminoABase 'W' = [ U , G , G ]
 deAminoABase 'Y' = [ G , U , U ]
-
+deAminoABase e = error "No es un Aminoacido"
 
 
 -- ## Reto 3 ## --
@@ -51,7 +53,7 @@ buscarTATAS s = sacarVacio( buscarTATA s : buscarTATAS (drop (length (buscarTATA
 
 buscarTATA :: String -> String
 buscarTATA "" = error "No hay Cadena"
-buscarTATA ('T' : 'A' : 'T' : 'A' : ss) = case ss of 
+buscarTATA ('T' : 'A' : 'T' : 'A' : 'A' :'A' : ss) = case ss of 
                                                "" -> ""
                                                xs -> cortarEnTATA ss
 
@@ -65,5 +67,5 @@ sacarVacio (x:xs) = case x of
 
 cortarEnTATA :: String -> String
 cortarEnTATA "" = error "No hay TATA final"
-cortarEnTATA ('T' : 'A' : 'T' : 'A' : ss) = ""
+cortarEnTATA ('T' : 'A' : 'T' : 'A' :'A' : 'A' : ss) = ""
 cortarEnTATA (s:ss) = s : cortarEnTATA ss 
