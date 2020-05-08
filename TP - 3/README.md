@@ -61,7 +61,7 @@ Nuevamente utilizando Haskell como lenguaje de programacion se ha propuesto para
 Que dada una secuencia de ADN, devuelve las regiones promotoras de un gen, entre la caja TATA del principio y del final.
 Ver archivo [TP-3.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%203/tp3.hs).
 
-Como bonus track: Agregamos la siguiente función:
+Como bonus track agregamos la siguiente función:
 
 
 `buscarTATAS :: String -> String`
