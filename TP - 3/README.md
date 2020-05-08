@@ -27,7 +27,7 @@ habláramos de células procariotas? 🤔
 
 ### RETO II: Dado el código genético como se muestra en la tabla crea un programa sencillo en algún lenguaje de programación que conozcas que imprima una cadena de ARN codificante para el siguiente péptido (cadena corta de aminoácidos).
 
-**Sec1: ‘ATVEKGGKHKTGPNEKGKKIFVQKCSQCHTVLHGLFGRKTGQA'
+**Sec1: ‘ATVEKGGKHKTGPNEKGKKIFVQKCSQCHTVLHGLFGRKTGQA'**
 
 Para este reto se ha elegido implementar la resolucion del mismo en el lenguaje de Programacion Haskell, dado la eficiencia de los programas funcionales. Ver archivo [TP-3.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%203/tp3.hs).
 
