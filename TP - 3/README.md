@@ -32,7 +32,7 @@ aminoácidos).
 
 **Sec1: ‘ATVEKGGKHKTGPNEKGKKIFVQKCSQCHTVLHGLFGRKTGQA'**
 
-Para este reto se ha elegido implementar la resolucion del mismo en el lenguaje de Programacion Haskell, dado la eficiencia de los programas funcionales. Ver archivo TP3.hs
+Para este reto se ha elegido implementar la resolucion del mismo en el lenguaje de Programacion Haskell, dado la eficiencia de los programas funcionales. Ver archivo [TP-3.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%203/tp3.hs).
 
 transform :: Peptido -> CadenaARN
 
@@ -59,7 +59,7 @@ Nuevamente utilizando Haskell como lenguaje de programacion se ha propuesto para
 buscarTATA :: String -> String
 
 Que dada una secuencia de ADN, devuelve las regiones promotoras de un gen, entre la caja TATA del principio y del final.
-Ver archivo TP3.hs (Falta link) 
+Ver archivo [TP-3.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%203/tp3.hs).
 
 Como bonus track: Agregamos la siguiente función:
 
