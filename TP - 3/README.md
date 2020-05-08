@@ -34,7 +34,7 @@ aminoácidos).
 
 Para este reto se ha elegido implementar la resolucion del mismo en el lenguaje de Programacion Haskell, dado la eficiencia de los programas funcionales. Ver archivo [TP-3.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%203/tp3.hs).
 
-transform :: Peptido -> CadenaARN
+###transform :: Peptido -> CadenaARN
 
 Que toma una cadena de String que representa un Peptido y devuelve una cadena de bases de ARN.
 Aclaracion: Es importante aclarar que la misma es una aproximacion, dado que en la resolucion del mismo nos dimos cuenta que no hay forma deterministica de hacer la codificacion, dado que al existir varias combinaciones de bases nitrogenadas que se traducen en el mismo  aminoácido, resulta imposible determinar exactamente cual fue la combinacion original que decanto para el mismo. Ver archivo TP3.hs (Falta link)
@@ -56,14 +56,15 @@ ADN, considerando que tal región comienza y termina en con la caja TATA.
 
 Nuevamente utilizando Haskell como lenguaje de programacion se ha propuesto para la resolucion de este reto la siguiente funcion:
 
-buscarTATA :: String -> String
+###buscarTATA :: String -> String
 
 Que dada una secuencia de ADN, devuelve las regiones promotoras de un gen, entre la caja TATA del principio y del final.
 Ver archivo [TP-3.hs](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%203/tp3.hs).
 
 Como bonus track: Agregamos la siguiente función:
 
-buscarTATAS :: String -> String
+
+###buscarTATAS :: String -> String
 Que dada una secuencia de ADN, devuelve **TODAS** las regiones promotoras de un gen.
 
 
