@@ -56,9 +56,7 @@ Que dada una secuencia de ADN, devuelve **TODAS** las regiones promotoras de un 
 
 ### RETO VI: Existen numerosas herramientas muy fáciles de usar que te permiten crear videojuegos, como por ejemplo Pilas Engine, y no hay mejor modo de aprender que jugando!
 
-👉 Diseñá un juego de mesa o un videojuego (hecho con la herramienta que más te
-guste) temático sobre expresión génica, con sus reglas y resúmen. Tené en cuenta
-que lo vas a tener que compartir con la clase. ¡El cielo es límite, a divertirse!
+#### 👉 Diseñá un juego de mesa o un videojuego (hecho con la herramienta que más te guste) temático sobre expresión génica, con sus reglas y resúmen. Tené en cuenta que lo vas a tener que compartir con la clase. ¡El cielo es límite, a divertirse!
 
 Ver carpeta [TP-3.hs](https://github.com/pache0015/Bioinformatica-UNQ/tree/master/TP%20-%203/Videojuego/AminoGame
 )
