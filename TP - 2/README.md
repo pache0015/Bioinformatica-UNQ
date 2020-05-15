@@ -2,6 +2,12 @@
 
 ## Tp 2 - 
 
+#### Integrantes Tp2: ####
+
+*Facundo Pacheco
+
+*Horacio Valenzuela
+
 ### ¿Qué información nos provee esta página?
  
  Es una base de datos que nuclea información de la estructura de las proteínas que han sido cristalizadas.
