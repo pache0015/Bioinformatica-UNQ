@@ -2,6 +2,16 @@
 
 ## Tp 3 - 
 
+#### Integrantes Tp3: ####
+
+*Guasch, Gonzalo
+
+*Pacheco, Facundo 
+
+*Pais, Mariano
+
+*Valenzuela, Horacio 
+
 PARA PENSAR: ¿A qué se refiere el texto con la frase “los genes “informacionales”
 tienen su origen en el reino archaea, mientras que los genes “operacionales” tienen
 su origen en el reino bacteria”?
