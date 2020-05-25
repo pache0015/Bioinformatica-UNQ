@@ -26,3 +26,14 @@
 
 *Valenzuela, Horacio 
 
+#### Integrantes Tp4: ####
+
+*Pacheco, Facundo 
+
+*Valenzuela, Horacio
+
+#### Integrantes Tp5: ####
+
+*Pacheco, Facundo 
+
+*Valenzuela, Horacio
