@@ -82,4 +82,6 @@ Finalmente, el **(*)** indica una coincidencia. Es decir, que en dicha posición
 -- Podríamos decir que a partir del árbol filogenético podemos ver cómo se agrupan los distintos organismos según sus similitudes. Si tomamos por ejemplo, el humano está en el mismo árbol que el chimpancé y este árbol viene está en otro compartido con el gorila. Entonces, esto nos indicaría que, el chimpancé y el humano tienen la misma procedencia. Esta rama, a su vez, compartiría el origen con el gorila. Por lo tanto podríamos explicar cómo se dio la evolución de ciertos organismos a partir de sus similitudes en la secuencia de su **ADN**.
 
 ![arbol-filiogenetico](https://cdn.kastatic.org/ka-perseus-images/c9f825d9158442437ed9cf23310a7655366b7f35.png)
+Imagen basada en Taxonomía y filogenia: Figura 6, de Robert Bear et al., CC BY 4,0
+
 
