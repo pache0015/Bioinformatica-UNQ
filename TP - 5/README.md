@@ -1,6 +1,9 @@
 Link :
 https://flbulgarelli.github.io/umi/#una-palabra-no-dice-nada-y-al-mismo-tiempo-lo-dice-todo
 
+![meme - STOP](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/meme.jpg)
+
+
 👉 PARA PENSAR: ¿Qué tipo de información se puede extraer de la comparación de secuencias? ¿Cómo esperás que se vea en una comparación? 🤔
 
 👉 PARA PENSAR: ¿Por qué crees que es mejor evaluar las relaciones evolutivas lejanas comparando proteínas? 🤔
