@@ -40,7 +40,14 @@ Con respecto al citocromos c del humano y el del gallo, presentan la misma longi
 
 ### ¿Qué teorías subyacen a este análisis?
 
--- Existen varias teorías que subyacen a este análisis. Una de ellas es el Alineamiento de secuencias de ADN mediante el método Smith-Waterman.  Esto es para determinar regiones similares entre dos secuencias de nucleótidos o proteínas.
+
+
+-- Existen varias teorías que subyacen a este análisis. En función del número de secuencias que se comparan podemos distinguir: 
+
+**• Alineamiento de dos secuencias:** Se comparan dos secuencias utilizando diversos métodos como, por ejemplo, la matriz de puntos (dot-plot), algoritmos de programación dinámica (Needleman-Wunsch o Smith-Waterman)para determinar regiones similares entre dos secuencias de nucleótidos o proteínas. o algoritmos heurísticos (FASTA, BLAST)
+
+**• Alineamiento múltiple de secuencias (AMS):** Se comparan más de dos secuencias. Para ello se pueden utilizar diversos programas basados en algoritmos heurísticos como, por ejemplo, CLUSTALW.
+
 
 ### ¿Cómo nos ayuda la evolución a explicar sus similitudes y diferencias?
 
