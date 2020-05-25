@@ -38,6 +38,8 @@ https://github.com/AJVelezRueda/Bioinfo_UNQ/blob/master/Trabajos_Practicos/TP_N_
 -- Todo depende de que denominemos como parecido o determinar en que factores denominamos como determinantes para diferencia entre 2 secuencias del mismo, citocromo para dos especies distintas. Encontrar una respuesta determinista no ha sido una tarea sencilla y a partir de lo visto en clase se puede afirmar que ha existido una gran brecha entre los conocimientos y volúmenes de datos adquiridos durante años de investigación, y la eficiencia con la que estos pueden ser analizados. Sin embargo en la actualidad con la ayuda de sosticados algoritmos y el desarrollo del campo de la biología computacional (y de la informática en general) se ha logrado acortar la diferencia mencionada.
 Con respecto al citocromos c del humano y el del gallo, presentan la misma longitud (de 105 caracteres/aminoácidos). Además de un gran nivel de coincidencias, caracter a caracter, como se puede observar en la captura del resultado de alineamiento de múltiples secuencias de Clustal Omega, que como se vio en clase es una herramienta de alineamiento para n más secuencias. (con n >= 2 )
 
+![Gallo vs humanos - por poco ponemos huevos, bro](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%204/img/gallovshumano.jpg)
+
 ### ¿Qué teorías subyacen a este análisis?
 
 
