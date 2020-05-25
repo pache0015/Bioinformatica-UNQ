@@ -2,7 +2,7 @@ Link :
 https://github.com/AJVelezRueda/Bioinfo_UNQ/blob/master/Trabajos_Practicos/TP_N_4_En_qu%C3%A9_se_parece_una_vaca_y_una_gallina.pdf
 
 
-| Secuencia      | Nombre taxonómico        | Nombre comun |
+| **Secuencia**      | **Nombre taxonómico**        | **Nombre comun** |
 |:--------------:|:------------------------:|:-------------:|  
 | NP_061820.1    | Homo sapiens             | Humano |
 | NP_001072946.1 | Gallus gallus            | Gallo |
@@ -17,17 +17,19 @@ https://github.com/AJVelezRueda/Bioinfo_UNQ/blob/master/Trabajos_Practicos/TP_N_
 
 ### Secuencias FASTA del cytochrome c para distintas especies:
 
-| Nombre         | Secuencia                |
+| **Nombre**         | **Secuencia**                |
 |:--------------:|:------------------------:|
-| >NP_061820.1 cytochrome c [Homo sapiens]| MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE|
-| >NP_001072946.1 cytochrome c [Gallus gallus] | MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGITWGEDTLMEYLENPKKYIPGTKMIFAGIKKKSERVDLIAYLKDATSK|
-| >NP_001065289.1 cytochrome c [Pan troglodytes] | MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE |
-| >NP_001157486.1 cytochrome c [Equus caballus] | MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWKEETLMEYLENPKKYIPGTKMIFAGIKKKTEREDLIAYLKKATNE |
-| >NP_001183974.1 cytochrome c [Canis lupus familiaris] | MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWGEETLMEYLENPKKYIPGTKMIFAGIKKTGERADLIAYLKKATKE |
-| >AEP27192.1 cytochrome c [Gorilla gorilla] | MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE |
-| >XP_024245566.1 cytochrome c [Oncorhynchus tshawytscha] | MGDIEKGKKAFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKAKGIVWDTDTLMTYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS |
-| >NP_001086101.1 cytochrome c, testis-specific [Xenopus laevis] | MGDVEKGKKVFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGIVWDEDTLMVYLENPKKYIPGTKMIFAGIKKKGERQDLIAYLKQSTSS |
-| >NP_477164.1 cytochrome c distal, isoform A [Drosophila melanogaster] | MGSGDAENGKKIFVQKCAQCHTYEVGGKHKVGPNLGGVVGRKCGTAAGYKYTDANIKKGVTWTEGNLDEYLKDPKKYIPGTKMVFAGLKKAEERADLIAFLKSNK |
+| >NP_061820.1 cytochrome c [**Homo sapiens**]| MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE|
+| >NP_001072946.1 cytochrome c [**Gallus gallus**] | MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGITWGEDTLMEYLENPKKYIPGTKMIFAGIKKKSERVDLIAYLKDATSK|
+| >NP_001065289.1 cytochrome c [**Pan troglodytes**] | MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE |
+| >NP_001157486.1 cytochrome c [**Equus caballus**] | MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWKEETLMEYLENPKKYIPGTKMIFAGIKKKTEREDLIAYLKKATNE |
+| >NP_001183974.1 cytochrome c [**Canis lupus familiaris**] | MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWGEETLMEYLENPKKYIPGTKMIFAGIKKTGERADLIAYLKKATKE |
+| >AEP27192.1 cytochrome c [**Gorilla gorilla**] | MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE |
+| >XP_024245566.1 cytochrome c [**Oncorhynchus tshawytscha**] | MGDIEKGKKAFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKAKGIVWDTDTLMTYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS |
+| >NP_001086101.1 cytochrome c, testis-specific [**Xenopus laevis**] | MGDVEKGKKVFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGIVWDEDTLMVYLENPKKYIPGTKMIFAGIKKKGERQDLIAYLKQSTSS |
+| >NP_477164.1 cytochrome c distal, isoform A [**Drosophila melanogaster**] | MGSGDAENGKKIFVQKCAQCHTYEVGGKHKVGPNLGGVVGRKCGTAAGYKYTDANIKKGVTWTEGNLDEYLKDPKKYIPGTKMVFAGLKKAEERADLIAFLKSNK |
+
+Los cuales se pueden apreciar en la carpeta [FASTA](https://github.com/pache0015/Bioinformatica-UNQ/tree/master/TP%20-%204/FASTA)
 
 ### ¿Cuán sencillo será alinear dos o más secuencias a mano? ¿Cuánto influirán el número de secuancias a alinear, su longitud, y la similitud entre ellas?
 
@@ -62,9 +64,9 @@ Según la investigación de Stanley L. Miller y Joan Oró se nos indican que la 
 ### ¿Qué indican el guión (-), los dos  puntos (:) y el asterisco (*)?
 
 -- Un alineamiento de secuencias es una forma de representar y comparar dos o más secuencias o cadenas de ADN, ARN o Proteínas y sirve para resaltar similitudes y diferencias,  que bien podrían indicar relaciones funcionales o evolutivas y mutaciones entre los genes o proteínas consultados. Las secuencias alineadas se escriben con las letras (representando aminoácidos o nucleótidos) en filas de una  matriz. 
-En tal acción, hay situaciones que las que es necesario insertar espacios para que las zonas con idéntica o similar estructura se alineen. El guión (-) indica un GAP, es decir un corrimiento de una secuencia para hacer coincidir con otra. (Cabe destacar que un GAP puede corresponder tanto a una deleción como a una inserción. Debido a la existencia de gaps y sustituciones alinear dos secuencia no es una acción trivial.) El objetivo del alineamiento es conseguir alinear las posiciones homólogas.
-Por otro lado, también tenemos el “carácter” especial de dos puntos (:) que indica si existe una conservación fuerte. Por ejemplo, si tomamos un nuevo elemento es bastante equivalente, si su puntuación es > 0.5 en una matriz 250 PAM (PAM es una mutación aceptada. Es decir, mutaciones en una proteína que NO afectan a su función biológica, y puede pasar a la siguiente generación. Dos secuencias están a una unidad PAM si una se transforma en la otra por mutaciones aceptadas.) Resumiendo, los (:) indican posiciones en las que se han realizado sustituciones conservativas.
-Finalmente, el (*) indica una coincidencia. Es decir, que en dicha posición los residuos son 100% idénticos.
+En tal acción, hay situaciones que las que es necesario insertar espacios para que las zonas con idéntica o similar estructura se alineen. El guión (**-**) indica un **GAP**, es decir un corrimiento de una secuencia para hacer coincidir con otra. (Cabe destacar que un **GAP** puede corresponder tanto a una deleción como a una inserción. Debido a la existencia de gaps y sustituciones alinear dos secuencia no es una acción trivial.) El objetivo del alineamiento es conseguir alinear las posiciones homólogas.
+Por otro lado, también tenemos el “carácter” especial de dos puntos (**:**) que indica si existe una conservación fuerte. Por ejemplo, si tomamos un nuevo elemento es bastante equivalente, si su puntuación es > 0.5 en una matriz 250 **PAM** (**PAM** es una mutación aceptada. Es decir, mutaciones en una proteína que NO afectan a su función biológica, y puede pasar a la siguiente generación. Dos secuencias están a una unidad **PAM** si una se transforma en la otra por mutaciones aceptadas.) Resumiendo, los (**:**) indican posiciones en las que se han realizado sustituciones conservativas.
+Finalmente, el (*****) indica una coincidencia. Es decir, que en dicha posición los residuos son 100% idénticos.
 
 ### A simple viste, ¿se conserva la secuencia del citocromo c en los organismos?
 
@@ -76,4 +78,4 @@ Finalmente, el (*) indica una coincidencia. Es decir, que en dicha posición los
 
 ### ¿Qué evidencias nos aportaría este análisis, a la luz de la evolución?
 
--- Podríamos decir que a partir del árbol filogenético podemos ver cómo se agrupan los distintos organismos según sus similitudes. Si tomamos por ejemplo, el humano está en el mismo árbol que el chimpancé y este árbol viene está en otro compartido con el gorila. Entonces, esto nos indicaría que, el chimpancé y el humano tienen la misma procedencia. Esta rama, a su vez, compartiría el origen con el gorila. Por lo tanto podríamos explicar cómo se dio la evolución de ciertos organismos a partir de sus similitudes en la secuencia de su ADN.
+-- Podríamos decir que a partir del árbol filogenético podemos ver cómo se agrupan los distintos organismos según sus similitudes. Si tomamos por ejemplo, el humano está en el mismo árbol que el chimpancé y este árbol viene está en otro compartido con el gorila. Entonces, esto nos indicaría que, el chimpancé y el humano tienen la misma procedencia. Esta rama, a su vez, compartiría el origen con el gorila. Por lo tanto podríamos explicar cómo se dio la evolución de ciertos organismos a partir de sus similitudes en la secuencia de su **ADN**.
