@@ -1,6 +1,8 @@
 Link :
 https://flbulgarelli.github.io/umi/#una-palabra-no-dice-nada-y-al-mismo-tiempo-lo-dice-todo
 
+link 2:
+https://classroom.google.com/u/0/w/NTQ5MzQ3MDU2NzNa/t/all
 
 
 👉 **PARA PENSAR: ¿Qué tipo de información se puede extraer de la comparación de secuencias? ¿Cómo esperás que se vea en una comparación? 🤔**
