@@ -2,7 +2,7 @@ Link :
 https://github.com/AJVelezRueda/Bioinfo_UNQ/blob/master/Trabajos_Practicos/TP_N_4_En_qu%C3%A9_se_parece_una_vaca_y_una_gallina.pdf
 
 
-| Secuencia      | Nombre taxonómico        | Nombre comun |
+| **Secuencia**      | **Nombre taxonómico**        | **Nombre comun** |
 |:--------------:|:------------------------:|:-------------:|  
 | NP_061820.1    | Homo sapiens             | Humano |
 | NP_001072946.1 | Gallus gallus            | Gallo |
@@ -17,17 +17,19 @@ https://github.com/AJVelezRueda/Bioinfo_UNQ/blob/master/Trabajos_Practicos/TP_N_
 
 ### Secuencias FASTA del cytochrome c para distintas especies:
 
-| Nombre         | Secuencia                |
+| **Nombre**         | **Secuencia**                |
 |:--------------:|:------------------------:|
-| >NP_061820.1 cytochrome c [Homo sapiens]| MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE|
-| >NP_001072946.1 cytochrome c [Gallus gallus] | MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGITWGEDTLMEYLENPKKYIPGTKMIFAGIKKKSERVDLIAYLKDATSK|
-| >NP_001065289.1 cytochrome c [Pan troglodytes] | MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE |
-| >NP_001157486.1 cytochrome c [Equus caballus] | MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWKEETLMEYLENPKKYIPGTKMIFAGIKKKTEREDLIAYLKKATNE |
-| >NP_001183974.1 cytochrome c [Canis lupus familiaris] | MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWGEETLMEYLENPKKYIPGTKMIFAGIKKTGERADLIAYLKKATKE |
-| >AEP27192.1 cytochrome c [Gorilla gorilla] | MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE |
-| >XP_024245566.1 cytochrome c [Oncorhynchus tshawytscha] | MGDIEKGKKAFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKAKGIVWDTDTLMTYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS |
-| >NP_001086101.1 cytochrome c, testis-specific [Xenopus laevis] | MGDVEKGKKVFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGIVWDEDTLMVYLENPKKYIPGTKMIFAGIKKKGERQDLIAYLKQSTSS |
-| >NP_477164.1 cytochrome c distal, isoform A [Drosophila melanogaster] | MGSGDAENGKKIFVQKCAQCHTYEVGGKHKVGPNLGGVVGRKCGTAAGYKYTDANIKKGVTWTEGNLDEYLKDPKKYIPGTKMVFAGLKKAEERADLIAFLKSNK |
+| >NP_061820.1 cytochrome c [**Homo sapiens**]| MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE|
+| >NP_001072946.1 cytochrome c [**Gallus gallus**] | MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGITWGEDTLMEYLENPKKYIPGTKMIFAGIKKKSERVDLIAYLKDATSK|
+| >NP_001065289.1 cytochrome c [**Pan troglodytes**] | MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE |
+| >NP_001157486.1 cytochrome c [**Equus caballus**] | MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWKEETLMEYLENPKKYIPGTKMIFAGIKKKTEREDLIAYLKKATNE |
+| >NP_001183974.1 cytochrome c [**Canis lupus familiaris**] | MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWGEETLMEYLENPKKYIPGTKMIFAGIKKTGERADLIAYLKKATKE |
+| >AEP27192.1 cytochrome c [**Gorilla gorilla**] | MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE |
+| >XP_024245566.1 cytochrome c [**Oncorhynchus tshawytscha**] | MGDIEKGKKAFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAEGFSYTDANKAKGIVWDTDTLMTYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKSATS |
+| >NP_001086101.1 cytochrome c, testis-specific [**Xenopus laevis**] | MGDVEKGKKVFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAEGFSYTDANKNKGIVWDEDTLMVYLENPKKYIPGTKMIFAGIKKKGERQDLIAYLKQSTSS |
+| >NP_477164.1 cytochrome c distal, isoform A [**Drosophila melanogaster**] | MGSGDAENGKKIFVQKCAQCHTYEVGGKHKVGPNLGGVVGRKCGTAAGYKYTDANIKKGVTWTEGNLDEYLKDPKKYIPGTKMVFAGLKKAEERADLIAFLKSNK |
+
+Los cuales se pueden apreciar en la carpeta [FASTA](https://github.com/pache0015/Bioinformatica-UNQ/tree/master/TP%20-%204/FASTA)
 
 ### ¿Cuán sencillo será alinear dos o más secuencias a mano? ¿Cuánto influirán el número de secuancias a alinear, su longitud, y la similitud entre ellas?
 
@@ -35,12 +37,21 @@ https://github.com/AJVelezRueda/Bioinfo_UNQ/blob/master/Trabajos_Practicos/TP_N_
 
 ### Son parecidos los citocromos c del gumano y el gallo?
 
--- Todo depende de que denominemos como parecido o determinar en que factores denominamos como determinantes para diferencia entre 2 secuencias del mismo, citocromo para dos especies distintas. Encontrar una respuesta determinista no ha sido una tarea sencilla y a partir de lo visto en clase se puede afirmar que ha existido una gran brecha entre los conocimientos y volúmenes de datos adquiridos durante años de investigación, y la eficiencia con la que estos pueden ser analizados. Sin embargo en la actualidad con la ayuda de sosticados algoritmos y el desarrollo del campo de la biología computacional (y de la informática en general) se ha logrado acortar la diferencia mencionada.
-Con respecto al citocromos c del humano y el del gallo, presentan la misma longitud (de 105 caracteres/aminoácidos). Además de un gran nivel de coincidencias, caracter a caracter, como se puede observar en la captura del resultado de alineamiento de múltiples secuencias de Clustal Omega, que como se vio en clase es una herramienta de alineamiento para n más secuencias. (con n >= 2 )
+-- Todo depende de que denominemos como parecido o determinar en que factores denominamos como determinantes para diferenciar entre 2 secuencias del mismo citocromo para dos especies distintas. Encontrar una respuesta determinista no ha sido una tarea sencilla debido a la brecha entre los conocimientos y volúmenes de datos adquiridos durante la investigación, y la eficiencia con la que estos pueden ser analizados. Sin embargo en la actualidad con la ayuda de sosticados algoritmos y el desarrollo del campo de la biología computacional (y de la informática en general) se ha logrado acortar la diferencia mencionada.
+Con respecto al citocromos c del humano y el del gallo, presentan la misma longitud (de 105 caracteres/aminoácidos). Además de un gran nivel de coincidencias, caracter a caracter, como se puede observar en la captura del resultado de alineamiento de múltiples secuencias de [Clustal Omega](https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=clustalo-I20200525-071248-0602-89162796-p2m), que como se vio en clase es una herramienta de alineamiento para n más secuencias. (con n >= 2 )
+
+![Gallo vs humanos - por poco ponemos huevos, bro](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%204/img/gallovshumano.jpg)
 
 ### ¿Qué teorías subyacen a este análisis?
 
--- Existen varias teorías que subyacen a este análisis. Una de ellas es el Alineamiento de secuencias de ADN mediante el método Smith-Waterman.  Esto es para determinar regiones similares entre dos secuencias de nucleótidos o proteínas.
+
+
+-- Existen varias teorías que subyacen a este análisis. En función del número de secuencias que se comparan podemos distinguir: 
+
+**• Alineamiento de dos secuencias:** Se comparan dos secuencias utilizando diversos métodos como, por ejemplo, la matriz de puntos (dot-plot), algoritmos de programación dinámica (Needleman-Wunsch o Smith-Waterman)para determinar regiones similares entre dos secuencias de nucleótidos o proteínas. o algoritmos heurísticos (FASTA, BLAST)
+
+**• Alineamiento múltiple de secuencias:** Se comparan más de dos secuencias. Para ello se pueden utilizar diversos programas basados en algoritmos heurísticos como, por ejemplo, CLUSTALW.
+
 
 ### ¿Cómo nos ayuda la evolución a explicar sus similitudes y diferencias?
 
@@ -54,9 +65,9 @@ Según la investigación de Stanley L. Miller y Joan Oró se nos indican que la 
 ### ¿Qué indican el guión (-), los dos  puntos (:) y el asterisco (*)?
 
 -- Un alineamiento de secuencias es una forma de representar y comparar dos o más secuencias o cadenas de ADN, ARN o Proteínas y sirve para resaltar similitudes y diferencias,  que bien podrían indicar relaciones funcionales o evolutivas y mutaciones entre los genes o proteínas consultados. Las secuencias alineadas se escriben con las letras (representando aminoácidos o nucleótidos) en filas de una  matriz. 
-En tal acción, hay situaciones que las que es necesario insertar espacios para que las zonas con idéntica o similar estructura se alineen. El guión (-) indica un GAP, es decir un corrimiento de una secuencia para hacer coincidir con otra. (Cabe destacar que un GAP puede corresponder tanto a una deleción como a una inserción. Debido a la existencia de gaps y sustituciones alinear dos secuencia no es una acción trivial.) El objetivo del alineamiento es conseguir alinear las posiciones homólogas.
-Por otro lado, también tenemos el “carácter” especial de dos puntos (:) que indica si existe una conservación fuerte. Por ejemplo, si tomamos un nuevo elemento es bastante equivalente, si su puntuación es > 0.5 en una matriz 250 PAM (PAM es una mutación aceptada. Es decir, mutaciones en una proteína que NO afectan a su función biológica, y puede pasar a la siguiente generación. Dos secuencias están a una unidad PAM si una se transforma en la otra por mutaciones aceptadas.) Resumiendo, los (:) indican posiciones en las que se han realizado sustituciones conservativas.
-Finalmente, el (*) indica una coincidencia. Es decir, que en dicha posición los residuos son 100% idénticos.
+En tal acción, hay situaciones que las que es necesario insertar espacios para que las zonas con idéntica o similar estructura se alineen. El guión (**-**) indica un **GAP**, es decir un corrimiento de una secuencia para hacer coincidir con otra. (Cabe destacar que un **GAP** puede corresponder tanto a una deleción como a una inserción. Debido a la existencia de gaps y sustituciones alinear dos secuencia no es una acción trivial.) El objetivo del alineamiento es conseguir alinear las posiciones homólogas.
+Por otro lado, también tenemos el “carácter” especial de dos puntos (**:**) que indica si existe una conservación fuerte. Por ejemplo, si tomamos un nuevo elemento es bastante equivalente, si su puntuación es > 0.5 en una matriz 250 **PAM** (**PAM** es una mutación aceptada. Es decir, mutaciones en una proteína que NO afectan a su función biológica, y puede pasar a la siguiente generación. Dos secuencias están a una unidad **PAM** si una se transforma en la otra por mutaciones aceptadas.) Resumiendo, los (**:**) indican posiciones en las que se han realizado sustituciones conservativas.
+Finalmente, el **(*)** indica una coincidencia. Es decir, que en dicha posición los residuos son 100% idénticos.
 
 ### A simple viste, ¿se conserva la secuencia del citocromo c en los organismos?
 
@@ -68,4 +79,11 @@ Finalmente, el (*) indica una coincidencia. Es decir, que en dicha posición los
 
 ### ¿Qué evidencias nos aportaría este análisis, a la luz de la evolución?
 
--- Podríamos decir que a partir del árbol filogenético podemos ver cómo se agrupan los distintos organismos según sus similitudes. Si tomamos por ejemplo, el humano está en el mismo árbol que el chimpancé y este árbol viene está en otro compartido con el gorila. Entonces, esto nos indicaría que, el chimpancé y el humano tienen la misma procedencia. Esta rama, a su vez, compartiría el origen con el gorila. Por lo tanto podríamos explicar cómo se dio la evolución de ciertos organismos a partir de sus similitudes en la secuencia de su ADN.
+-- Podríamos decir que a partir del árbol filogenético podemos ver cómo se agrupan los distintos organismos según sus similitudes. Si tomamos por ejemplo, el humano está en el mismo árbol que el chimpancé y este árbol viene está en otro compartido con el gorila. Entonces, esto nos indicaría que, el chimpancé y el humano tienen la misma procedencia. Esta rama, a su vez, compartiría el origen con el gorila. Por lo tanto podríamos explicar cómo se dio la evolución de ciertos organismos a partir de sus similitudes en la secuencia de su **ADN**.
+
+![arbol-filiogenetico1](https://cdn.kastatic.org/ka-perseus-images/211dc38a08cf29c0a48aac2cdba6dcec6c66e1e0.png)
+![arbol-filiogenetico2](https://cdn.kastatic.org/ka-perseus-images/c9f825d9158442437ed9cf23310a7655366b7f35.png)
+
+Imagenes basadas en Taxonomía y filogenia: Figura 6, de Robert Bear et al., CC BY 4,0
+
+
