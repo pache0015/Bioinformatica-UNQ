@@ -9,19 +9,19 @@ MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTK
 
 >AEP27192.1 cytochrome c [Gorilla gorilla] MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE
 
->NP_477164.1 cytochrome c distal, isoform A [Drosophila melanogaster]  MGSGDAENGKKIFVQKCAQCHTYEVGGKHKVGPNLGGVVGRKCGTAAGYKYTDANIKKGVTWTEGNLDEYLKDPKKYIPGTKMVFAGLKKAEERADLIAFLKSNK
+>NP_477164.1 cytochrome c distal isoform A [Drosophila melanogaster]  MGSGDAENGKKIFVQKCAQCHTYEVGGKHKVGPNLGGVVGRKCGTAAGYKYTDANIKKGVTWTEGNLDEYLKDPKKYIPGTKMVFAGLKKAEERADLIAFLKSNK
 
 >NP_001065289.1 cytochrome c [Pan troglodytes] MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE
 
 
 **Reto I: Detalla las tácticas y/o metodologías que deberían utilizarse para darles una respuesta a los padres del niño.** 
 ***Dadas las secuencias de Mosca, humano y Moscahumano ¿Qué criterios se les ocurren para comparar las secuencias? ¿Qué resultados obtienen del análisis anterior?***
--- En una versión pormenorizada (según lo que menciona en el siguiente punto), realizariamos el análisis realizando la alineación y comparación entre las tres secuencias mencionadas. El resultado, derivaría en un árbol filogenético, el cual se encuentra resumido al conf confeccionarse considerando tan solo esas secuencias anteriormente mencionadas. Se dice que es pormenorizado, dado el bajo número de muestras participantes que se analizan para el mismo.
+-- En una versión pormenorizada, realizariamos el análisis realizando la alineación y comparación entre las tres secuencias mencionadas. El resultado, derivaría en un árbol filogenético, el cual se encuentra resumido al confeccionarse considerando tan solo esas secuencias anteriormente mencionadas. Se dice que es pormenorizado, dado el bajo número de muestras participantes que se analizan para el mismo.
 
 
 ***¿Qué resultado esperaría obtener si utilizara el resto de las secuencias en el análisis? ¿Por qué?***
 
--- Para poder comparar a las secuencias de los tres organismos mencionados no basta con alinear y realizar la comparación entre las mismas, ya que esto no sería del todo preciso ni estaría mostrando el  panorama real. Para poder obtener algo más “real”, debemos comparar esta secuencia con, por ejemplo, las secuencias de los mamíferos, donde estará la del humano, y con las de los insectos, donde estará la de la mosca. Esto visión, mucho más transversal, nos dará un árbol más grande  donde veremos una distancia más correcta entre las secuencias de estas tres “especies” a dadas.
+-- Para poder comparar a las secuencias de los tres organismos mencionados no basta con alinear y realizar la comparación entre las mismas, ya que esto no sería del todo preciso ni estaría mostrando el  panorama real. Para poder obtener algo más parecida a la realidad, debemos comparar esta secuencia con varias secencias de varias especies, por ejemplo, las secuencias de los mamíferos, donde estará la del humano, y con las de los insectos, donde estará la de la mosca, pero tambien existiran otras muchas especies. Esto visión, mucho más transversal, nos dará un árbol más grande  donde veremos una distancia más correcta entre las secuencias de estas tres “especies” a dadas.
 
 
 **Reto II: Como vimos anteriormente existen algunos softwares optimizados para confeccionar alineamientos de secuencias. En particular hemos trabajado con Clustal (Larkin et al. 2007). Confecciona los alineamientos para los del punto I.a y I.b análisis.**
