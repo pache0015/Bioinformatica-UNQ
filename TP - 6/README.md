@@ -21,16 +21,17 @@ MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTK
 
 ***¿Qué resultado esperaría obtener si utilizara el resto de las secuencias en el análisis? ¿Por qué?***
 
--- Para poder comparar a las secuencias de los tres organismos mencionados no basta con alinear y realizar la comparación entre las mismas, ya que esto no sería del todo preciso ni estaría mostrando el  panorama real. Para poder obtener algo más parecida a la realidad, debemos comparar esta secuencia con varias secencias de varias especies, por ejemplo, las secuencias de los mamíferos, donde estará la del humano, y con las de los insectos, donde estará la de la mosca, pero tambien existiran otras muchas especies. Esto visión, mucho más transversal, nos dará un árbol más grande  donde veremos una distancia más correcta entre las secuencias de estas tres “especies” a dadas.
+-- Para poder comparar a las secuencias de los tres organismos mencionados no basta con alinear y realizar la comparación entre las mismas, ya que esto no sería del todo preciso ni estaría mostrando el  panorama real. Para poder obtener algo más parecida a la realidad, debemos comparar esta secuencia con varias secencias de varias especies, por ejemplo, las secuencias de los mamíferos, donde estará la del humano, y con las de los insectos, donde estará la de la mosca, pero tambien existiran otras muchas especies. Esto visión, mucho más transversal, nos dará un árbol más grande  donde veremos una distancia más correcta entre las secuencias de estas tres “especies” a dadas. Mayor cantidad de datos, puede permitir una respuesta mucho mas precisa.
+
 
 
 **Reto II: Como vimos anteriormente existen algunos softwares optimizados para confeccionar alineamientos de secuencias. En particular hemos trabajado con Clustal (Larkin et al. 2007). Confecciona los alineamientos para los del punto I.a y I.b análisis.**
-I.a :
 
+**I.a :**
+[A](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/a.jpg)
 
-[IMAGEN]
-I.b :
-[IMAGEN]
+**I.b :**
+[B]([A](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/b.jpg)
 
 
 -- Si bien en este árbol filogenético no se analizan una gran cantidad de secuencias, se hizo a modo de ejemplificar la respuesta dada en el punto I.a. 
