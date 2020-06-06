@@ -28,10 +28,10 @@ MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTK
 **Reto II: Como vimos anteriormente existen algunos softwares optimizados para confeccionar alineamientos de secuencias. En particular hemos trabajado con Clustal (Larkin et al. 2007). Confecciona los alineamientos para los del punto I.a y I.b análisis.**
 
 **I.a :**
-[A](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/a.jpg)
+[A]!(https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/a.jpg)
 
 **I.b :**
-[B]([A](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/b.jpg)
+[B]!([A](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/b.jpg)
 
 
 -- Si bien en este árbol filogenético no se analizan una gran cantidad de secuencias, se hizo a modo de ejemplificar la respuesta dada en el punto I.a. 
