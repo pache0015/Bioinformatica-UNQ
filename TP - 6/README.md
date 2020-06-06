@@ -31,7 +31,7 @@ MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTK
 ![A](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/a.jpg)
 
 **I.b :**
-![B]([A](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/b.jpg)
+![B](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%206/img/b.jpg)
 
 
 -- Si bien en este árbol filogenético no se analizan una gran cantidad de secuencias, se hizo a modo de ejemplificar la respuesta dada en el punto I.a. 
