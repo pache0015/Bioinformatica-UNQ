@@ -13,15 +13,17 @@ https://classroom.google.com/u/0/w/NTQ5MzQ3MDU2NzNa/t/all
 - Determinar si existe algún tipo de relación entre ellas (por ejemplo, si son homólogas) o si el parecido es simplemente fruto de la casualidad
 - Detectar la presencia de motivos estructurales y/o funcionales conservados
 - Construir árboles filogenéticos que reflejen sus relaciones evolutivas
+En definitiva: Comparando secuencias se puede extraer similitudes existentees entre las cadenas dadas, determinar si las mismas son homólogas o no, si se pueden ver partes estructurales de las secuencias o determinar la relación entre ellas y en base a tales datos armar un árbol filogenético 
 
 La forma más habitual de comparar secuencias consiste en hacer un alineamiento.Esto consiste en escribirlas una encima de la otra de modo que el número de símbolos que coinciden en una misma posición sea máximo. Si es necesario, se pueden introducir huecos en cualquiera de las secuencias. Los huecos (gaps) introducidos en las secuencias también se denominan indels (insertion/deletion) ya que se pueden considerar, indistintamente, como la inserción de un residuo en una de las secuencias o como la desaparición (o deleción) de un residuo en otra. La comparación adopta esta forma de matriz, donde se intenta coincidir el Elemento **A**ij de una secuencia con el elemento **B**ij de la otra, tal como se puede apreciar en la siguiente imagen:
 
 ![comparacion - matriz](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/tabla5bio1.png)
 
+En una comparación se espera verlas alineadas. Buscando asi la mayor cantidad de coincidencias, para poder obtener resultados mas precisos en la comparación.
 
 👉 **PARA PENSAR: ¿Por qué crees que es mejor evaluar las relaciones evolutivas lejanas comparando proteínas? 🤔**
 
--- Cabe destacar que la comparación de proteínas permite indicar genes en común, heredados de antepasados en común, dado dos (o más) muestras de especies distintas. De esto se desprende que el grado de similitud en las secuencias de aminoácidos indica el grado de la relación filogenética entre dichas especies. Un ejemplo claro es la comparación que se tuvo que hacer en el [TP nro. 4](https://github.com/pache0015/Bioinformatica-UNQ/tree/master/TP%20-%204), cuando comparábamos la muestra de **Citocroma C** proveniente de Humanos y Gallos, la cual es una proteína transportadora de electrones, común en todos los organismos aeróbicos, en una gran variedad de especies. Es mejor evaluar relaciones evolutivas lejanas comparando proteínas, dado que permite establecer hipótesis acerca de las relaciones evolutivas, entre un grupo de organismos, de forma más completa.
+-- Es mejor evaluar las relaciones evolutivas lejanas comparando proteinas porque la base funcional de la proteína tienda a mantenerse a traves del tiempo y lo que se modifica son partes *no* fundamentales para su funcionamiento. Cabe destacar que la comparación de proteínas permite indicar genes en común, heredados de antepasados en común, dado dos (o más) muestras de especies distintas. De esto se desprende que el grado de similitud en las secuencias de aminoácidos indica el grado de la relación filogenética entre dichas especies. Un ejemplo claro es la comparación que se tuvo que hacer en el [TP nro. 4](https://github.com/pache0015/Bioinformatica-UNQ/tree/master/TP%20-%204), cuando comparábamos la muestra de **Citocroma C** proveniente de Humanos y Gallos, la cual es una proteína transportadora de electrones, común en todos los organismos aeróbicos, en una gran variedad de especies. Es mejor evaluar relaciones evolutivas lejanas comparando proteínas, dado que permite establecer hipótesis acerca de las relaciones evolutivas, entre un grupo de organismos, de forma más completa.
 Además, cuando se hacen alineamientos de secuencias de ADN hay que tener en cuenta que:
 - Los 4 nucleótidos aparecen con la misma frecuencia en las bases de datos.
 - Todos los cambios posibles tienen una probabilidad similar.
@@ -37,12 +39,10 @@ En cambio, los alineamientos de secuencias de proteínas son más sensibles, ya 
 
 
 👇 **RETO I: Intentemos, entonces alinear estas dos palabras, para comprender mejor el problema. Alineá en la siguiente table de comparaciones las palabras "BANANA" y "MANZANA".**
+-- No existe una existe una única forma de alinearla ambas seucencias. No tienen la misma cantidad de caracteres con lo cual se pueden hacer dos alineaciones posibles minimamente, por ejemplo agregados, deleciones o GAP. Con algunas alineaciones hay mayor coincidencia con menor insercion de GAPs, agregados o deleciones.
 
-
-
-👇 **RETO II: En la siguiente tabla probá distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor de identidad calculado para cada alineamitno que intentes.**
-
-
+👇 **RETO II: En la siguiente tabla probá distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor de identidad calculado para cada alineamitno que intentes.***
+-- Dada las palabras "ANA" y "ANANA", el valor de identidad del margen en el superior izquierdo, el mismo no cambia. Asumimos .
 
 👇 **RETO III: En la siguiente tabla probá distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor de identidad calculado para cada alineamitno que intentes y un botón para cambiar la penalidad que se le otorga a dicho para el cálculo de identidad.**
 
