@@ -11,6 +11,7 @@
 #### RETO I: ¿Podrías buscar un ejemplo de macromoléculas que almacenen información sobre la ‘identidad’ de un organismo dado?  
 
 Un ejemplo de esto son los acidos nucleicos (el *ácido desoxirribonucleico* - o ADN - y el *ácido ribonucleico* - o  ARN-). 
+La estructura de doble hélice del ADN proporcionó respuestas al tema de la herencia, predijo la autorreplicación del material genético y la idea de que la información genética estaba contenida en la secuencia de las bases que lo conforman. El ADN contiene las instrucciones que determinan la forma y características de un organismo y sus funciones.
 
 ![Meme - Daenerys - ADN/ARN](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%201/img/ADN%7CARN.jpg)
  
