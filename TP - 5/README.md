@@ -39,13 +39,34 @@ En cambio, los alineamientos de secuencias de proteínas son más sensibles, ya 
 
 
 👇 **RETO I: Intentemos, entonces alinear estas dos palabras, para comprender mejor el problema. Alineá en la siguiente table de comparaciones las palabras "BANANA" y "MANZANA".**
--- No existe una existe una única forma de alinearla ambas seucencias. No tienen la misma cantidad de caracteres con lo cual se pueden hacer dos alineaciones posibles minimamente, por ejemplo agregados, deleciones o GAP. Con algunas alineaciones hay mayor coincidencia con menor insercion de GAPs, agregados o deleciones.
+-- No existe una existe una única forma de alinear ambas seucencias. No tienen la misma cantidad de caracteres con lo cual se pueden hacer dos alineaciones posibles minimamente, por ejemplo agregados, deleciones o GAP. Con algunas alineaciones hay mayor coincidencia con menor insercion de GAPs, agregados o deleciones. Dos posibles alineamientos son los siguientes:
+
+a)
+![ali1](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/ali1.png)
+
+
+b)
+![ali2](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/ali2.png)
+//Falta imagen al2
+
 
 👇 **RETO II: En la siguiente tabla probá distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor de identidad calculado para cada alineamitno que intentes.***
--- Dada las palabras "ANA" y "ANANA", el valor de identidad del margen en el superior izquierdo, el mismo no cambia. Asumimos .
+-- Se realizaron los alineamientos de ANA con ANANA como se puede apreciar en la siguiente imagen:
+
+![ali2-1](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/ali2-1.png)
+
+y se notó que por cada GAP que aparece en el alineamiento se pierden puntos de identidad. Si se agregan las letras faltantes a la palabra para que matcheen correctamente, la identidad da 1. Con lo cual cada discrepancia o cada letra faltante (reemplazada por GAP para la alineación) hacen que este disminuzca. 
+
 
 👇 **RETO III: En la siguiente tabla probá distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor de identidad calculado para cada alineamitno que intentes y un botón para cambiar la penalidad que se le otorga a dicho para el cálculo de identidad.**
 
+![ali3-1](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/ali3-1.png)
+
+La penalidad hace que al poner GAPS se descuente un porcentaje de la identidad, este (no)valor es mayor a que si tuviera otra “letra” que no matcheara EJ:
+
+![ali3-2](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/ali3-2.png)
+
+La palabra “ANAF” tiene un "score" mayor con respecto a “ANA” ya que se tuvo que ingresar menos cantidad de GAPs. A menor penalidad, menor es el porcentaje que se descuenta del valor de identidad cuando se debe ingresar GAPS.
 
 
 👉 **PARA PENSAR: Entonces, pensando en un alineamiento de ácidos nucleicos ¿Cuáles te parece que son las implicancias de abrir un gap en el alineamiento? ¿Qué implicaría la inserción o deleción de una región de más de un residuo?**
@@ -55,6 +76,13 @@ En cambio, los alineamientos de secuencias de proteínas son más sensibles, ya 
 
 👇 **RETO IV: En la siguiente tabla probá distintos alineamientos para las secuencias nucleotídicas. Podrás ver las traducciones para cada secuencia.**
 
+![ali4-1](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/ali4-1.png)
+
+En este caso, lo que se puede apreciar es que en la alineación efectuada, no basta con dos nucleótidos para definir el aminoácido. Por más que se hayan alineado lo más posible no alcanza para determinarlo.
+
+![ali4-2](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/ali4-2.png)
+
+En este caso se puede apreciar que a la cadena hubo que modificarla mucho mas que en las ocasiones anteriores, corriendo a la derecha casi toda la cadena. Aún así no alcanza para determinar dos aminoácidos; y en el caso de la tercer cadena, no estando alineado, no se corresponde con el final de la segunda.
 
 
 👉 **PARA PENSAR: ¿Dá lo mismo si el gap que introducís cae en la primera, segunda o tercer posición del codón? ¿Cómo ponderarías las observaciones de este ejercicio para evaluar el parecido entre dos secuencias?**
