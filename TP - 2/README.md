@@ -25,8 +25,8 @@ No. Esto se debe a que las proteínas están en movimiento constantemente y pued
 
 ### Este es el error asociado al experimento: Mientras mayor es la resolución, menor es la certeza al determinar la posición de cada átomo. ¿Cuál es la utilidad y los condicionamientos de usar un modelo científixo que sabemos inexacto?
 
- Entendiendo a resolución como la capacidad que se tiene para determinar o distinguir lo que hay entre dos puntos cercanos. A más cercanía mejor apreciación. ( Revisar )
-
+ Entendiendo a resolución como la capacidad que se tiene para determinar o distinguir lo que hay entre dos puntos cercanos. A más cercanía mejor apreciación. Los medios actuales hacen que por el momento se utilice este medio, dado una limitación tecnológica, pero de todas formas sigue siendo de gran utilidad ya que aporta una representación para poder tener una idea de la forma de la proteína. 
+ 
 ### En la pantalla principal vemos una representación de la estructura de ubiquitina. ¿Qué significan las cintas, las flechas y las regiones angostas?
 
  Son las formas de representaición de la estructura secundaria de cada aminoácido. Pueden ser Alpha Hélice, Beta Plegada o Loop.
