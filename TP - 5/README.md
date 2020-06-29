@@ -47,7 +47,6 @@ a)
 
 b)
 ![ali2](https://github.com/pache0015/Bioinformatica-UNQ/blob/master/TP%20-%205/img/ali2.png)
-//Falta imagen al2
 
 
 👇 **RETO II: En la siguiente tabla probá distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor de identidad calculado para cada alineamitno que intentes.***
