@@ -16,4 +16,6 @@ R)  3
 (Es división entera)
 
  
+###RETO VI: ¿Se te ocurre qué operadores podrías usar para las listas?
 
+Los operadores lógicos-matématicos más inmediatos que se nos ocurren que se podrian usar para las listas son **+**, ** * ** y **==** 
