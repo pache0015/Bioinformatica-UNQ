@@ -4,8 +4,8 @@ Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    kvc4-HP-240-G6-Notebook-PC (AVX2, FMA3, 7 GB RAM)
 Command: iqtree -s ./temp/fasta.fasta
-Seed:    230479 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Tue Jul  7 21:17:05 2020
+Seed:    106536 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jul  9 15:20:11 2020
 Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
@@ -35,7 +35,7 @@ Alignment was printed to ./temp/fasta.fasta.uniqueseq.phy
 For your convenience alignment with unique sequences printed to ./temp/fasta.fasta.uniqueseq.phy
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
 Perform fast likelihood tree search using LG+I+G model...
 Estimate model parameters (epsilon = 5.000)
 Perform nearest neighbor interchange...
@@ -44,8 +44,8 @@ Estimate model parameters (epsilon = 1.000)
 Optimal log-likelihood: -721.742
 Proportion of invariable sites: 0.288
 Gamma shape alpha: 1.312
-Parameters optimization took 1 rounds (0.007 sec)
-Time for fast ML tree search: 0.029 seconds
+Parameters optimization took 1 rounds (0.009 sec)
+Time for fast ML tree search: 0.060 seconds
 
 NOTE: ModelFinder requires 1 MB RAM!
 ModelFinder will test up to 546 protein models (sample size: 107) ...
@@ -226,8 +226,8 @@ Bayesian Information Criterion:         WAG+G4
 Best-fit model: WAG+G4 chosen according to BIC
 
 All model information printed to ./temp/fasta.fasta.model.gz
-CPU time for ModelFinder: 2.917 seconds (0h:0m:2s)
-Wall-clock time for ModelFinder: 2.927 seconds (0h:0m:2s)
+CPU time for ModelFinder: 3.308 seconds (0h:0m:3s)
+Wall-clock time for ModelFinder: 3.350 seconds (0h:0m:3s)
 
 NOTE: 0 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.100)
@@ -242,31 +242,31 @@ Log-likelihood of BIONJ tree: -714.947
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 99 parsimony trees... 0.032 second
-Computing log-likelihood of 85 initial trees ... 0.140 seconds
+Generating 99 parsimony trees... 0.031 second
+Computing log-likelihood of 79 initial trees ... 0.145 seconds
 Current best score: -714.947
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
 BETTER TREE FOUND at iteration 1: -714.947
-Iteration 10 / LogL: -714.961 / Time: 0h:0m:0s
-Iteration 20 / LogL: -714.977 / Time: 0h:0m:0s
+Iteration 10 / LogL: -714.950 / Time: 0h:0m:0s
+Iteration 20 / LogL: -714.953 / Time: 0h:0m:0s
 Finish initializing candidate tree set (1)
-Current best tree score: -714.947 / CPU time: 0.469
+Current best tree score: -714.947 / CPU time: 0.499
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 UPDATE BEST LOG-LIKELIHOOD: -714.947
+Iteration 30 / LogL: -714.953 / Time: 0h:0m:0s (0h:0m:1s left)
 UPDATE BEST LOG-LIKELIHOOD: -714.947
-Iteration 30 / LogL: -714.955 / Time: 0h:0m:0s (0h:0m:1s left)
-Iteration 40 / LogL: -715.007 / Time: 0h:0m:0s (0h:0m:1s left)
-Iteration 50 / LogL: -714.955 / Time: 0h:0m:1s (0h:0m:1s left)
-Iteration 60 / LogL: -714.953 / Time: 0h:0m:1s (0h:0m:0s left)
-Iteration 70 / LogL: -714.973 / Time: 0h:0m:1s (0h:0m:0s left)
-Iteration 80 / LogL: -714.955 / Time: 0h:0m:1s (0h:0m:0s left)
-Iteration 90 / LogL: -714.953 / Time: 0h:0m:1s (0h:0m:0s left)
-Iteration 100 / LogL: -714.982 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 40 / LogL: -714.952 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 50 / LogL: -715.140 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 60 / LogL: -714.982 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 70 / LogL: -715.016 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 80 / LogL: -715.007 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 90 / LogL: -715.124 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 100 / LogL: -714.973 / Time: 0h:0m:2s (0h:0m:0s left)
 TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:2s
 
 --------------------------------------------------------------------
@@ -277,15 +277,15 @@ Estimate model parameters (epsilon = 0.010)
 1. Initial log-likelihood: -714.947
 Optimal log-likelihood: -714.947
 Gamma shape alpha: 0.605
-Parameters optimization took 1 rounds (0.007 sec)
+Parameters optimization took 1 rounds (0.008 sec)
 BEST SCORE FOUND : -714.947
 Total tree length: 0.881
 
 Total number of iterations: 102
-CPU time used for tree search: 1.976 sec (0h:0m:1s)
-Wall-clock time used for tree search: 1.996 sec (0h:0m:1s)
-Total CPU time used: 2.006 sec (0h:0m:2s)
-Total wall-clock time used: 2.026 sec (0h:0m:2s)
+CPU time used for tree search: 2.262 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.298 sec (0h:0m:2s)
+Total CPU time used: 2.294 sec (0h:0m:2s)
+Total wall-clock time used: 2.330 sec (0h:0m:2s)
 
 Analysis results written to: 
   IQ-TREE report:                ./temp/fasta.fasta.iqtree
@@ -293,4 +293,4 @@ Analysis results written to:
   Likelihood distances:          ./temp/fasta.fasta.mldist
   Screen log file:               ./temp/fasta.fasta.log
 
-Date and Time: Tue Jul  7 21:17:10 2020
+Date and Time: Thu Jul  9 15:20:16 2020
