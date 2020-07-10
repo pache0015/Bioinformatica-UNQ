@@ -15,8 +15,15 @@ class Alineador:
 
         in_file = "fasta.fasta"
         out_file = "aligned.fasta"
-
-        clustalomega_cline = ClustalOmegaCommandline(infile=in_file, outfile=out_file, verbose=True, auto=True, force=True)
-        clustalomega_cline()
-
+        if !estaAling(in_file):
+            clustalomega_cline = ClustalOmegaCommandline(infile=in_file, outfile=out_file, verbose=True, auto=True, force=True)
+            clustalomega_cline()
+        else:
+            f = open('../tem/aligned.fasta', "w")
+            f.write(fasta.fasta)
+            f.close()
+            
         os.chdir(owd)
+        
+        def estaAling(self, pathFile):
+            return True

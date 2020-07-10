@@ -1,8 +1,12 @@
 from tkinter.filedialog import askopenfile
 import os
 
+
+#El fasta debe tener en su cabecera: El nombre | ubicacion | fecha
+# >N.... | BS.AS | DATE
 class Uploader:
-    fastaRoute = "./temp/fasta.fasta"        
+    fastaRoute = "./temp/fasta.fasta"
+    ubications = []
     def writeFasta(self, secuence):
         f = open(self.fastaRoute, "w")
         f.write(secuence)
@@ -16,8 +20,16 @@ class Uploader:
             content = file.read()
             file.close()
             self.deleteFasta()
-            #FALTAN LAS VALIDACIONES Y PARSEO DEL FASTA PARA OBTENER DATOS EJ UBICACIONES
             self.writeFasta(content)
+            return True
         else:
             return False
-        return True
+    
+    def parseoUbication(self, fasta):
+        record = SeqIO.read(fasta, "fasta")
+          for record in SeqIO.parse(handle, "fasta"):
+            self.encolarUbications(record.id)
+                
+    def encolarUbications(self, id):
+        cabecera = str(id)        
+        return ubication.add(cabecera.split("|")[1])
