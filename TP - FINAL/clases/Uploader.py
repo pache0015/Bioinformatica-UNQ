@@ -27,7 +27,7 @@ class Uploader:
     
     def parseoUbication(self, fasta):
         record = SeqIO.read(fasta, "fasta")
-          for record in SeqIO.parse(handle, "fasta"):
+        for record in SeqIO.parse(handle, "fasta"):
             self.encolarUbications(record.id)
                 
     def encolarUbications(self, id):
