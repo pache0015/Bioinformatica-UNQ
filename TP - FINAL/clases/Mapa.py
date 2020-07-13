@@ -40,10 +40,14 @@ class Mapa:
             ).add_to(self.my_map)
             n = n + 1
         return self
-    
+
+    def guardar_mapa(self):
+        self.my_map.save("Mapa final")
+
     def render_mapa(self):
         MousePosition().add_to(self.my_map)
         folium.PolyLine(self.points).add_to(self.my_map)
         minimap = MiniMap()
         self.my_map.add_child(minimap)
+        self.guardar_mapa()
         display(self.my_map)
