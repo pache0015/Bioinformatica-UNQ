@@ -51,3 +51,4 @@ class Mapa:
         self.my_map.add_child(minimap)
         self.guardar_mapa()
         display(self.my_map)
+        return self.my_map
