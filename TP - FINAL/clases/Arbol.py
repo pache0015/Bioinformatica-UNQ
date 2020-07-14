@@ -3,8 +3,9 @@ import subprocess
 import tkinter as tk
 
 class Arbol:
-    def __init__(self):
-        test = subprocess.Popen(["iqtree","-s","./temp/fasta.fasta", "-st", "AA", "-m", "BLOSUM62"], stdout=subprocess.PIPE)
+    def __init__(self, bootstrap):
+        
+        test = subprocess.call(['iqtree','-s', "./temp/fasta.fasta" , '-bb', str(bootstrap)])
         test.communicate()[0]
         self.alg = open("./temp/fasta.fasta", "r").read()
         self.newick = open("./temp/fasta.fasta.treefile", "r").read()
