@@ -7,6 +7,7 @@ from folium.plugins import MousePosition
 import PySimpleGUI as sg
 import io
 from PIL import Image
+from geopy.geocoders import Nominatim
 
 class UbicacionNotFound(Exception):
     def __init__(self, nombre_ubicacion):
@@ -27,6 +28,7 @@ class Mapa:
     def armar_mapa(self, nombres_de_ubicaciones):
         n = 1
         for nombre_ubicacion in nombres_de_ubicaciones:
+            geolocator = Nominatim(user_agent="TP FINAL Bioinformatica")
             ubicacion = geolocator.geocode(nombre_ubicacion)
             if ubicacion == None:
                 raise UbicacionNotFound(nombre_ubicacion)
