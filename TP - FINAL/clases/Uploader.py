@@ -1,19 +1,26 @@
 from tkinter.filedialog import askopenfile
+import Bio.SeqIO as SeqIO
 import os
 
 
+
 #El fasta debe tener en su cabecera: El nombre | ubicacion | fecha
-# >N.... | BS.AS | DATE
+# >N.... | BS.AS 
+# AUCGUCGGU
 class Uploader:
-    fastaRoute = "./temp/fasta.fasta"
-    ubications = []
+    def __init__(self):
+        self.fastaRoute = "./temp/fasta.fasta"
+        self.ubicaciones = []
+    
     def writeFasta(self, secuence):
         f = open(self.fastaRoute, "w")
         f.write(secuence)
         f.close()
+    
     def deleteFasta(self):
         if os.path.exists(self.fastaRoute):
             os.remove(self.fastaRoute)
+    
     def loadFasta(self):
         file = askopenfile(mode ='r', filetypes =[('Archivos .FASTA', '*.fasta')])
         if file is not None: 
@@ -21,15 +28,16 @@ class Uploader:
             file.close()
             self.deleteFasta()
             self.writeFasta(content)
+            self.parseoUbication()
             return True
         else:
             return False
     
-    def parseoUbication(self, fasta):
-        record = SeqIO.read(fasta, "fasta")
-        for record in SeqIO.parse(handle, "fasta"):
-            self.encolarUbications(record.id)
+    def parseoUbication(self):
+        for record in SeqIO.parse(self.fastaRoute, "fasta"):
+            self.encolarUbications(record)
                 
-    def encolarUbications(self, id):
-        cabecera = str(id)        
-        return ubication.add(cabecera.split("|")[1])
+    def encolarUbications(self, record):
+        cabecera = str(record.description)  
+        ubicacion = cabecera.split("|")[1]
+        self.ubicaciones.append(ubicacion)
