@@ -28,7 +28,7 @@ class Uploader:
             file.close()
             self.deleteFasta()
             self.writeFasta(content)
-            #self.parseoUbication()
+            self.parseoUbication()
             return True
         else:
             return False

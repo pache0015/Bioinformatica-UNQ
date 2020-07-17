@@ -14,6 +14,9 @@ class UbicacionNotFound(Exception):
     def __init__(self, nombre_ubicacion):
         super().__init__(f"La ubicación {nombre_ubicacion} no es válida")
 
+class NotUbicacion(Exception):
+    def __init__(self, nombre_ubicacion):
+        super().__init__("En el archivo cargado no hay ubicaciones")
 
 class Mapa:
     def __init__(self):
@@ -28,6 +31,8 @@ class Mapa:
        
     def armar_mapa(self, ubicaciones):
         n = 1
+        if not ubicaciones:
+            raise NotUbicacion
         for nombre_ubicacion in ubicaciones:
             geolocator = Nominatim(user_agent="TP FINAL Bioinformatica")
             ubicacion = geolocator.geocode(nombre_ubicacion)
