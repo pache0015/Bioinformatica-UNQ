@@ -65,3 +65,4 @@ Los beneficios son la facilidad para poder migrar la información de un sistema 
 Ya que al parecer hay una convención para guardar los archivos con este formato en particular, se tiende a pensar que si.
 
 ### Rosalind Franklin es una científica muy relevante, que tuvo menos reconocimiento del merecido. Contanos sobre los procedimientos que puso a punto Rosalind.
+Se podría decir que era pionera en muchas investigaciones. Por ejemplo, los proyectos relacionados con virus del mosaico del tabaco y el poliovirus. Sin embargo, el mayor hito científico de Rosalind, podríamos decir que fue haber podido fotografiar el ADN con el difractómetro de rayos x. Mérito que le fue robado por su compañero Wilkins.

@@ -1,9 +1,6 @@
 ###¿Podriías buscar un ejemplo de macromoleculas que almanecen información sobre la 'identidad'de una celula?
 
-
 Un ejemplo de macromolecula que almanece información sobre la identidad de una celula, seria el ADN.
-
-
 
 ###¿Podeés descubrir y anotar el orden en que se ha ejecutado cada operacion?
 ### ((4+5)*2)/5

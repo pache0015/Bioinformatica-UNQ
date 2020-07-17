@@ -92,7 +92,7 @@ En este caso se puede apreciar que a la cadena hubo que modificarla mucho mas qu
 
 
 👉 **PARA PENSAR: ¿En qué casos serán de utilidad uno u otro tipo de alineamientos? ¿Qué limitaciones tendrá cada uno?**
-
+El alineamiento global es más util cuando se comparan secuencias de tamaño y composición similar. Pero de ser muy secuancias muy distintas no dará el mejor resultado. Mientras que el local, siver más para comparar regiones específicas de las secuencias por si tienen tamaños muy distintos.
 
 
 👉 **PARA PENSAR: Ingresá al servidor del NCBI y mirá los distintos programas derivados del BLAST que se ofrecen ¿Para qué sirve cada uno?¿En qué casos usarías cada uno?**
@@ -103,18 +103,15 @@ En este caso se puede apreciar que a la cadena hubo que modificarla mucho mas qu
 
 👇 **RETO VII: calculá el E-value y % identidad utilizando el programa Blast de la siguiente secuencia input usando 20000 hits, un e-value de 100 y tomando aquellos hits con un mínimo de 70% cobertura. Observe y discuta el comportamiento de : E-value vs. % id, Score vs % id, Score vs E-value**
 
-VVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTV
+Secuencia: VVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTV
 TTTTKGENFTETDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFLIVG
+
+Estos valores están relacionados. Cuando varia uno varian también los otros dos. El e-value es nuestro valor de referencia para saber que tan certero es esa proteina en esa cadena, cuando menor sea el valor mas confianza nos transmite. Corriendo en blast la proteina que tiene el menor e-value también tiene el mayor score y porcentaje de identidad, es decir que era la misma proteína. De igual forma, hay varias secuencias que disminuye el e-value pero el porcentaje de identidad sigue siendo 100%, viendo esto entre el score para desempatar y así podemos ver cual es la proteina que comparada con toda esta base de datos es la mas cercana o directamente es la misma
 
 👇 **RETO VIII: Realizá nuevas búsquedas usando la mitad de la secuencia problema y para un cuarto de la secuencia original. Compará los gráficos obtenidos.¿Qué conclusiones puede sacas?**
 
-
-👇 **RETO IX: Utilizando BLAST utilice búsquedas de similitud secuencial para identificar a la siguiente proteína:**
-MIDKSAFVHPTAIVEEGASIGANAHIGPFCIVGPHVEIGEGTVLKSHVVVNGHTKIGRDNEIYQFASIGEVNQ
-DLKYAGEPTRVEIGDRNRIRESVTIHRGTVQGGGLTKVGSDNLLMINAHIAHDCTVGNRCILANNATLAGH
-VSVDDFAIIGGMTAVHQFCIIGAHVMVGGCSGVAQDVPPYVIAQGNHATPFGVNIEGLKRRGFSREAITAIR
-NAYKLIYRSGKTLDEVKPEIAELAETYPEVKAFTDFFARSTRGLIR
-
-👉 **PARA PENSAR: ¿Cuál es la función de la proteína? ¿A qué grupo taxonómico pertenece? A un nivel de significancia estadística adecuado ¿cuántas secuencias similares se encuentran?**
+Al usar la mitad de la secuencia, cambiaron los valores. No solo el e-value mas confiable es mayor que el valor con la cadena original, sino que el valor maximo también es mucho menor, Estos cambios también se reflejan con el resultado ya que también cambio la proteína con un coverage del 100%, antes era "prion protein precursor [Homo sapiens]" ahora con la secuencia por la mitad es "Chain A, Major prion protein". Todos estos valores se ven también y mas agraviados cuando menor sea la longitud de la cadeana, con un cuarto de la misma el e-value paso de ser un valor negativo a ser 85 el max valu de casi 300 puntos a 23 pero la identidad como en los casos anteriores es 100% y da como resultado "biotin--[acetyl-CoA-carboxylase] ligase [Halorubrum saccharovorum]". Algo también para resltar que llama mucho la atención es que los primeros dos resultados eran proteinas que se encontraban en el humano y esta última es una bacteria, es decir que dependiendo de la longitud de la cadena no solo altera los valores de evalu, maxscore sino de que estamos buscando y en que organismo aparece.
 
 👇**RETO X: Realizá una nueva corrida del BLASTp, utilizando la misma secuencia , pero ahora contra la base de datos PDB. ¿Se obtienen los mismo resultados? ¿Qué tipo de resultados(hits) se recuperan? ¿Cuándo nos podría ser útil este modo de corrida?**
+
+Luego de realizar la comparación de la secuencia contra PDB, me da otro resultado, no podría ser que es totalmente diferente pero si que no es el mismo "UDP N-ACETYLGLUCOSAMINE O-ACYLTRANSFERASE" vs "UDP N-ACETYLGLUCOSAMINE O-ACYLTRANSFERASE" en la primera hay siete posibles organismo que poseen esta proteina mientras que en la segunda solo dos, pero esos dos son dos de los siete de la primer cadena. Viendo esto puedo asumir que en las bases de datos tienen cargados ambas cadenas pero con diferentes mutaciónes o datos de la mismas, ya que en ambas queries me dieron 100% de identidad, es decir que esa cadena era la misma que me estaba dando pero el resultado no es el mismo. Posiblemente esto sirva para ver las diferencias que una cadena puede representar en los diferentes organismos.

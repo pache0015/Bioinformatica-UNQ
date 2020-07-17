@@ -37,3 +37,39 @@
 *Pacheco, Facundo 
 
 *Valenzuela, Horacio
+
+#### Integrantes Tp6: ####
+
+*Pacheco, Facundo 
+
+*Valenzuela, Horacio
+
+#### Integrantes Tp7: ####
+
+*Guasch, Gonzalo
+
+*Pacheco, Facundo 
+
+*Pais, Mariano
+
+*Valenzuela, Horacio
+
+#### Integrantes Tp8: ####
+
+*Guasch, Gonzalo
+
+*Pacheco, Facundo 
+
+*Pais, Mariano
+
+*Valenzuela, Horacio
+
+#### Integrantes Tp final: ####
+
+*Guasch, Gonzalo
+
+*Pacheco, Facundo 
+
+*Pais, Mariano
+
+*Valenzuela, Horacio
