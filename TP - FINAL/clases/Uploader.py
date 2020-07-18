@@ -24,6 +24,7 @@ class Uploader:
         with open(filename.name, "rU") as handle:
             try:
                 fasta = list(SeqIO.parse(handle, "fasta"))
+
                 if len(fasta) <= 2:
                     raise ValueError()
             except UnicodeDecodeError:
@@ -48,5 +49,8 @@ class Uploader:
                 
     def encolarUbications(self, record):
         cabecera = str(record.description)  
-        ubicacion = cabecera.split("|")[1]
+        try:
+            ubicacion = cabecera.split("|")[1]
+        except IndexError:
+            raise ValueError()
         self.ubicaciones.append(ubicacion)
