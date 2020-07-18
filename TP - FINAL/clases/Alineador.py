@@ -6,7 +6,8 @@ import Bio.SeqIO as SeqIO
 from Bio.Align.Applications import ClustalOmegaCommandline
 
 class Alineador:
-    def estaAling(self, pathFile):
+    def estaAlign(self, pathFile):
+        #PREGUNTAR PARA QUE ESTA ESTO.
         return False
 
     def alinear(self):
@@ -18,12 +19,12 @@ class Alineador:
 
         in_file = "fasta.fasta"
         out_file = "aligned.fasta"
-        if not self.estaAling(in_file):
-            clustalomega_cline = ClustalOmegaCommandline(infile=in_file, outfile=out_file, verbose=True, auto=True, force=True)
-            clustalomega_cline()
+        if not self.estaAlign(in_file):
+            clustalomega_cLine = ClustalOmegaCommandline(infile=in_file, outfile=out_file, verbose=True, auto=True, force=True)
+            clustalomega_cLine()
         else:
-            f = open('../tem/aligned.fasta', "w")
-            f.write(fasta.fasta)
+            f = open('../temp/aligned.fasta', "w")
+            f.write('fasta.fasta')
             f.close()
             
         os.chdir(owd)

@@ -2,11 +2,10 @@ from tkinter.filedialog import askopenfile
 import Bio.SeqIO as SeqIO
 import os
 
-
-
 #El fasta debe tener en su cabecera: El nombre | ubicacion | fecha
 # >N.... | BS.AS 
 # AUCGUCGGU
+
 class Uploader:
     def __init__(self):
         self.fastaRoute = "./temp/fasta.fasta"
@@ -20,10 +19,20 @@ class Uploader:
     def deleteFasta(self):
         if os.path.exists(self.fastaRoute):
             os.remove(self.fastaRoute)
-    
+
+    def is_fasta(self, filename):
+        with open(filename.name, "rU") as handle:
+            try:
+                fasta = list(SeqIO.parse(handle, "fasta"))
+                if len(fasta) <= 2:
+                    raise ValueError()
+            except UnicodeDecodeError:
+                raise UnicodeDecodeError('type str', b'\x00\x00', 1, 2, 'This is just a fake reason!')       
+        return True
+
     def loadFasta(self):
         file = askopenfile(mode ='r', filetypes =[('Archivos .FASTA', '*.fasta')])
-        if file is not None: 
+        if file is not None and self.is_fasta(file): 
             content = file.read()
             file.close()
             self.deleteFasta()
