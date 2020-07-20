@@ -6,8 +6,8 @@ import os
 class Arbol:
     def __init__(self, bootstrap):
         self.deleteFasta()
-        test = subprocess.Popen(['iqtree','-s', "./temp/fasta.fasta" , '-bb', str(bootstrap)])
-        #test.communicate()[0]
+        test = subprocess.Popen(["iqtree","-s","./temp/fasta.fasta", "-B", "1000", "-redo"], stdout=subprocess.PIPE)
+        test.communicate()[0]
         self.alg = open("./temp/fasta.fasta", "r").read()
         self.newick = open("./temp/fasta.fasta.treefile", "r").read()
     
