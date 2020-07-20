@@ -29,13 +29,14 @@ class Mapa:
         )
         
        
-    def armar_mapa(self, ubicaciones):
+    def armar_mapa(self, dicUbicaciones):
         n = 1
-        if not ubicaciones:
+        if not dicUbicaciones:
             raise NotUbicacion()
-        for nombre_ubicacion in ubicaciones:
+        for nombre_ubicacion in dicUbicaciones:
             geolocator = Nominatim(user_agent="TP FINAL Bioinformatica")
-            ubicacion = geolocator.geocode(nombre_ubicacion)
+            ubicacion = geolocator.geocode(dicUbicaciones[nombre_ubicacion])
+            cabecera = nombre_ubicacion
             if ubicacion == None:
                 raise UbicacionNotFound(nombre_ubicacion)
             point = (ubicacion.latitude, ubicacion.longitude)
@@ -43,7 +44,7 @@ class Mapa:
             folium.Marker(
                 location = [point[0], point[1]],
                 icon = folium.Icon(color='red', icon='cloud'),
-                popup= f'Ubicacion: {nombre_ubicacion}',
+                popup= f'Ubicacion: {dicUbicaciones[nombre_ubicacion], nombre_ubicacion}',
                 tooltip = n
             ).add_to(self.my_map)
             n = n + 1

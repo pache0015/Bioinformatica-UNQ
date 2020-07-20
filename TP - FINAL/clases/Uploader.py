@@ -3,13 +3,13 @@ import Bio.SeqIO as SeqIO
 import os
 
 #El fasta debe tener en su cabecera: El nombre | ubicacion | fecha
-# >N.... | BS.AS 
+# >...| BS.AS | ... | N...
 # AUCGUCGGU
 
 class Uploader:
     def __init__(self):
         self.fastaRoute = "./temp/fasta.fasta"
-        self.ubicaciones = []
+        self.dicUbicaciones = dict()
     
     def writeFasta(self, secuence):
         f = open(self.fastaRoute, "w")
@@ -49,8 +49,12 @@ class Uploader:
                 
     def encolarUbications(self, record):
         cabecera = str(record.description)  
+        print("#######################################################")
+        print(cabecera)
+        print("#######################################################")
         try:
+            clave = cabecera.split("|")[3]
             ubicacion = cabecera.split("|")[1]
         except IndexError:
             raise ValueError()
-        self.ubicaciones.append(ubicacion)
+        self.dicUbicaciones[clave] = ubicacion

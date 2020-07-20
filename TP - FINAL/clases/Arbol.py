@@ -4,10 +4,10 @@ import tkinter as tk
 import os
 
 class Arbol:
-    def init(self, bootstrap):
+    def __init__(self, bootstrap):
         self.deleteFasta()
-        test = subprocess.call(['iqtree','-s', "./temp/fasta.fasta" , '-bb', str(bootstrap)])
-        test.communicate()[0]
+        test = subprocess.Popen(['iqtree','-s', "./temp/fasta.fasta" , '-bb', str(bootstrap)])
+        #test.communicate()[0]
         self.alg = open("./temp/fasta.fasta", "r").read()
         self.newick = open("./temp/fasta.fasta.treefile", "r").read()
     
