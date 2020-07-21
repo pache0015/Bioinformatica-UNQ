@@ -24,7 +24,6 @@ class Uploader:
         with open(filename.name, "rU") as handle:
             try:
                 fasta = list(SeqIO.parse(handle, "fasta"))
-                print(len(fasta))
                 if len(fasta) <= 2:
                     raise ValueError()
             except UnicodeDecodeError:

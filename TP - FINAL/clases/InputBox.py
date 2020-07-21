@@ -1,5 +1,6 @@
-import tkinter as tk 
- 
+from tkinter import messagebox 
+import tkinter as tk
+  
 class InputBox():
     def __init__(self, text=""):
         self.root = tk.Tk()
@@ -12,11 +13,17 @@ class InputBox():
         self.entry.pack()
         self.entry.focus()
         self.entry.bind("<Return>", lambda x: self.getinput(self.entry.get()))
-        if(eval(self.get))
-        x = 1 y = 2 (print(x+y))
-        x = "1" y = "2" (print(x+y))
         self.root.mainloop()
  
     def getinput(self, value):
-        self.get = value
-        self.root.destroy()
+        try:
+            n = eval(value) 
+            if n >= 0 and n <= 1000: 
+                self.get = n
+                self.root.destroy()
+            else:
+                messagebox.showinfo(message="Ingrese un valor entre 0 - 1000", title="Vofi")
+                self.root.destroy()
+        except:
+               messagebox.showinfo(message="Solo se deben ingresar numeros", title="Vofi") 
+               self.root.destroy()
