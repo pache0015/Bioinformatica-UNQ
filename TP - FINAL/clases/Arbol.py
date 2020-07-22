@@ -2,14 +2,14 @@ from ete3 import PhyloTree, faces, TreeStyle, NodeStyle, AttrFace, TextFace
 import subprocess
 import tkinter as tk
 import os
+import time
 
 class Arbol:
     def __init__(self, bootstrap):
+        args = ["iqtree","-s","./temp/aligned.fasta", "-B", str(bootstrap), "-redo"]
         self.deleteFasta()
-        test = subprocess.Popen(["iqtree","-s","./temp/fasta.fasta", "-B", str(bootstrap), "-redo"], stdout=subprocess.PIPE)
+        test = subprocess.Popen(args, stdout=subprocess.PIPE)
         test.communicate()[0]
-        self.alg = open("./temp/fasta.fasta", "r").read()
-        self.newick = open("./temp/fasta.fasta.treefile", "r").read()
     
     def getPhyloTree(self):
         # Performs a tree reconciliation analysis 
@@ -27,11 +27,16 @@ class Arbol:
             node.img_style["fgcolor"] = "#AA0000"
 
     def deleteFasta(self):
-        if os.path.exists("./temp/fasta.fasta.treefile"):
-            os.remove("./temp/fasta.fasta.treefile")
+        basicRoute = "./temp/aligned.fasta."
+        ext = ["treefile","bionj","ckp.gz","contree","iqtree","log","mldist","model.gz","splits.nex","uniqueseq.phy"]
+        for x in ext:
+            if os.path.exists(basicRoute + x):
+                os.remove(basicRoute + x)
 
     def armarArbol(self):
         # Visualize the reconciled tree
+        self.alg = open("./temp/aligned.fasta", "r").read()
+        self.newick = open("./temp/aligned.fasta.treefile", "r").read()
         t, ts = self.getPhyloTree()
         ts.scale = 200
         ts.show_leaf_name = False
